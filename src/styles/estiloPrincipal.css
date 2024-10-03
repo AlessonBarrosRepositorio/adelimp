@@ -1,0 +1,327 @@
+.areaConteudo{
+    scrollbar-width: none; /* Para Firefox */
+    -ms-overflow-style: none; /* Para Internet Explorer e Edge */
+    overflow: auto; /* Permite a rolagem */
+    max-height: 1080px; /* Define uma altura máxima para ativar a rolagem se necessário */
+}
+.areaConteudo::-webkit-scrollbar {
+    width: 0; /* Define a largura da barra de rolagem como 0 para escondê-la */
+    background: transparent; /* Torna a barra de rolagem transparente */
+  }
+.areaConteudo{
+    width: 100%;
+    height: 100%;
+}
+.bloco{    
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.btnHome{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 46px;
+    height: 46px;
+    background-color: chocolate;
+    border-radius: 50%;
+    
+}
+.btnHome:hover{
+    cursor: pointer;
+}
+.btnHome>img{
+    width: 80%;
+    height: 70%;
+}
+.btnWhats{
+    position: absolute;
+    top: 12%;
+    right: 2%;
+    width: 46px;
+    height: 46px;
+    background-color: #00D757;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.btnWhats>img{
+    width: 100%;
+    height: 100%;
+}
+.textSomb{
+    text-shadow: 1px 2px 2px black;
+}
+.areaConteudo02{
+    display: flex;
+    flex-direction: row;
+}
+.areaConteudo01{
+    
+}
+.capaMainTop{
+    width: 100%;
+    height: 60%;
+}
+.Esquerda{
+    left:0;
+}
+.Direita{
+    right:0;
+}
+.centro{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div02Tela01{
+    width: 50%;
+    height: 100%;
+    background-color: beige;
+}
+.div02Tela02{
+    width: 50%;
+    height: 100%;
+    background-color: bisque;
+}
+.fotoAp02{
+    width: 60%;
+    height: 80%;
+    background-color: black;
+    border-radius: 10px;
+}
+.fotoAp02>img{
+    border-radius: 10px;
+}
+.area02Conteudo{
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+}
+.logo02{
+    width: 20%;
+    margin-bottom: 10%;
+}
+.logo02>img{
+    width: 100%;
+}
+.titulo02{
+    margin-bottom: 10%;
+}
+.titulo02>h1{
+    font-size: 200%;    
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+.lista-com-traco {
+    list-style-type: none; /* Remove o estilo padrão */
+
+  }
+
+.lista-com-traco li::before {
+content: "- "; /* Adiciona um traço antes de cada item */
+color: black;  /* Cor do traço */
+font-weight: bold; /* Deixa o traço em negrito, se desejado */
+}
+.lista-centralizada {
+list-style-type: none;  /* Remove o estilo padrão */
+padding: 0;
+margin: 0 auto;  /* Centraliza a lista horizontalmente */
+width: fit-content;  /* Define a largura da lista de acordo com o conteúdo */
+text-align: left;  /* Garante que o texto dentro da lista esteja alinhado à esquerda */
+}
+
+.lista-centralizada li {
+margin-bottom: 10px;   /* Adiciona espaçamento entre os itens, se necessário */
+}
+
+.lista-centralizada li::before {
+content: "- "; /* Adiciona um traço antes de cada item */
+color: black;  /* Cor do traço */
+font-weight: bold; /* Deixa o traço em negrito, se desejado */
+}
+.lista-centralizada li{
+font-weight: bolder;
+}
+.texto02{
+
+}
+.texto02>h2{
+    font-size: 100%;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+.logo01{
+    width: 10%;
+    left: 2%;
+    top:2%;
+}
+.nave{
+    z-index: 99;
+    width: 60%;
+    height: 8%;
+    left: 20%;
+    right: 20%;
+    top: 10%;
+    border-radius: 10px;
+    background-color: rgba(250, 225, 197,80%);
+
+}
+.navArea{
+   
+    width: 98%;
+    height: 98%;
+    flex-direction: row;
+}
+.btnNav01{
+    width: 28%;
+    height: 90%;
+    margin-left:2%;
+    margin-right:2%;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.btnNav01:hover{
+    cursor: pointer;
+}
+.btnNav01>b{
+    font-size: 100%;
+    font-weight: 700;
+
+}
+.areaConteudo03{
+    flex-direction: column;
+    background-color: floralwhite;
+}
+
+.what01{
+    background-color: #00D757;
+}
+.what01>a{
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.topArea03{
+    width: 100%;
+    height: 20%;
+
+}
+.topArea03>h1{
+    font-weight: bolder;
+    font-size: 320%;
+}
+.bottomArea03{
+    width: 100%;
+    height: 20%;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.bottomArea03>h2{
+    font-size: 250%;
+    font-weight:300%;
+    position: absolute;
+    top: 2%;
+    
+}
+
+.btnOrcamento{
+    background-color: #00D757;
+    width: 14%;
+    height: 30%;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 100%;
+    color: #fff;
+    position: absolute;
+    bottom: 15%;
+    padding:0 2% 0 2%;
+}
+#areaSlide {
+    will-change: transform, opacity;
+  }
+.mBottom{
+    margin-bottom: 10%;
+}
+
+.areaConteudo04{
+    display: flex;
+    flex-direction: row;
+}
+.div04Tela01{
+    width: 50%;
+    height: 100%;    
+    background-color: bisque;
+}
+.div04Tela02{
+    width: 50%;
+    height: 100%;
+    background-color: beige;
+}
+.texto04>h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 250%;
+}
+.paragrafo04{
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+}
+.paragrafo04>h4{
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    left:5%;
+
+}
+.paragrafo04>h5{
+    text-align: center;
+    font-weight: 700;
+    font-size: 180%;
+}
+.div04Tela02Area{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.img04Tela02{
+    width: 40%;
+    height: 80%;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px black;
+}
+.areaimg04Tela02{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+
+}
+.textos04Tela02{
+    bottom: 10%;
+    width: 100%;
+    height: 50%;
+}
+.textos04Tela02>h1{
+    font-size: 200%;
+    font-weight: 700;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.textos04Tela02>p{
+    font-size: 100%;
+    font-weight: 600;    
+    margin-bottom: 5%;
+}

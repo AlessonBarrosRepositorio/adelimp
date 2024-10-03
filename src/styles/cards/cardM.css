@@ -1,0 +1,123 @@
+
+.slide{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 4px;
+    
+}
+.areaSlide {
+    position: relative; /* Adicionado para posicionar os botões de rolagem */
+    width: 100%;
+    height:100%;
+    overflow-x: auto; /* Permitir rolagem horizontal */
+    white-space: nowrap; /* Impedir que as cartas quebrem para uma nova linha */
+    scrollbar-width: none; /* Para Firefox */
+    -ms-overflow-style: none; /* Para Internet Explorer e Edge */
+    border-radius: 4px;
+    display: flex;
+    animation: scroll-horizontal 20s linear infinite;
+}
+
+.carta {
+    min-width: 78%; /* Define o tamanho mínimo de largura */
+    min-height: 98%; /* Define o tamanho mínimo de altura */
+    box-shadow: 1px 2px 6px black;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+}
+.h2Carta{
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    right: 0;
+    width: 50%; /* Defina a largura do elemento */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do elemento */
+    width: 90%;
+    height: 16%;
+    background-color: chocolate;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 100%;
+    color:#fff;
+    text-shadow: 1px 2px 6px black;
+}
+.imgCarta{
+    width: 100%;
+    height:100%;
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 10px;
+}
+.areaEsfumadaEsquerda{
+    position: absolute;
+    left: 0;
+    width: 8%;
+    height: 100%;
+    background-image:linear-gradient(to right,black, #0000);
+    border-radius: 4px 0 0  4px;
+
+}
+.areaEsfumadaDireita{
+    position: absolute;
+    right: 0;
+    width: 8%;
+    height: 100%;
+    background-image:linear-gradient(to right, #0000, black);
+    border-radius: 0 4px 4px 0;
+
+}
+.areaSlide::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+.areaSlide::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Cor da barra de rolagem */
+}
+
+.areaSlide::-webkit-scrollbar-track {
+    background-color: transparent; /* Cor do rastreador de rolagem (fundo da barra de rolagem) */
+}
+
+.areaSlide::-webkit-scrollbar-button {
+    background-color: transparent; /* Cor do botão de rolagem (seta para cima e para baixo) */
+}
+
+        /* Estilos para os botões de rolagem */
+        .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+    transition: background-color 0.3s; /* Transição suave de cor */
+}
+
+.scroll-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo mais escura ao passar o mouse */
+}
+
+.scroll-left-btn {
+    left: 10px;
+}
+
+.scroll-right-btn {
+    right: 10px;
+}
