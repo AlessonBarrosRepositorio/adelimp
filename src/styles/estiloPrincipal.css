@@ -23,7 +23,7 @@
     right: 2%;
     width: 46px;
     height: 46px;
-    background-color: chocolate;
+    background-color: #04045B;
     border-radius: 50%;
     
 }
@@ -163,7 +163,7 @@ font-weight: bolder;
     right: 20%;
     top: 10%;
     border-radius: 10px;
-    background-color: rgba(250, 225, 197,80%);
+    background-color:#fff4;
 
 }
 .navArea{
@@ -177,7 +177,7 @@ font-weight: bolder;
     height: 90%;
     margin-left:2%;
     margin-right:2%;
-    background-color: bisque;
+    background-color:  #04045B;
     border-radius: 10px;
 }
 .btnNav01:hover{
@@ -185,12 +185,26 @@ font-weight: bolder;
 }
 .btnNav01>b{
     font-size: 100%;
-    font-weight: 700;
+    font-weight: 900;
+    background-color: #fff;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #04045B;
+    font-size: 150%;
 
+}
+.btnNav01>b:hover{
+    
+    font-size: 200%;
+    font-weight: 1000;
 }
 .areaConteudo03{
     flex-direction: column;
-    background-color: floralwhite;
+    background-color: #fff;
 }
 
 .what01{

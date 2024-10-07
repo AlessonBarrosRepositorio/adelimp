@@ -12,47 +12,64 @@ function cards() {
         containerEventos.innerHTML = `
   
                     <div class="carta" id="carta01">
-                        <img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725882200/teste-link/xd90p4eelwkdcdmbxxpg.jpg" alt="" class="imgCarta">
-                        <h2 class="h2Carta">
-                            Redes de Proteção para Janelas e Outros
-                        </h2>
+                        <img src="https://live.staticflickr.com/65535/54049000212_d59c306347_m.jpg" alt="" class="imgCarta">
+                        <div class="h2Carta">
+                            <h2>
+                                Redes de Proteção para <br>Janelas e Outros
+                            </h2>
+                        </div>
                     </div>
                     <div class="carta">
-                        <img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725882202/teste-link/c0zdhg54tfos2yquwbow.jpg" alt="" class="imgCarta">
-                        <h2 class="h2Carta">
-                            Telas Mosquiteiro para Janelas e Portas
-                        </h2>
+                        <img src="https://live.staticflickr.com/65535/54050269265_f40490a457_m.jpg" alt="" class="imgCarta">
+                        <div class="h2Carta">
+                            <h2>
+                                Telas Mosquiteiro para <br>Janelas e Portas
+                            </h2>
+                        </div>
+
                     </div>
                     <div class="carta">
                         <img src="https://live.staticflickr.com/65535/54040411304_4c7c802ba3_m.jpg" alt="" class="imgCarta">
-                        <h2 class="h2Carta">
-                            Redes para Quadras e Piscinas
-                        </h2>
+                        <div class="h2Carta">
+                            <h2>
+                                Redes para Quadras <br>e Piscinas
+                            </h2>
+                        </div>
                     </div>
                     <div class="carta">
-                        <img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725885602/teste-link/eiumwtvldsdxbj0xenud.jpg" alt="" class="imgCarta">
-                        <h2 class="h2Carta">
-                            Mão de Obra Especializada
-                        </h2>
+                        <img src="https://live.staticflickr.com/65535/54049661141_4a1d4c6daf_m.jpg" alt="" class="imgCarta">
+                        <div class="h2Carta">
+                            <h2>
+                                Mão de Obra Especializada
+                            </h2>
+                        </div>
+
                     </div>
                     <div class="carta">
-                        <img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725882201/teste-link/gfiiuqei7eoa6jnzohie.jpg" alt="" class="imgCarta">
-                        <h2 class="h2Carta">
-                            Serviços com Garantia
-                        </h2>
+                        <img src="https://live.staticflickr.com/65535/54050135000_ce85b90da4_m.jpg" alt="" class="imgCarta">
+                        <div class="h2Carta">
+                            <h2>
+                                Serviços com Garantia
+                            </h2>
+                        </div>
+
                     </div>
 
                     <div class="carta">
-                        <img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725882201/teste-link/pxpjaephtwonwe5oddvx.jpg" alt="" class="imgCarta">
-                        <h2 class="h2Carta">
-                            Nos encontrem Aqui
-                        </h2>
+                        <img src="https://live.staticflickr.com/65535/54050149855_15da1fbf53_m.jpg" alt="" class="imgCarta">
+                        <div class="h2Carta">
+                            <h2>
+                                Nos encontre Aqui
+                            </h2>
+                        </div>
                     </div>
                     <div class="carta">
-                        <img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725882200/teste-link/ypvev4uhpha7ix8exuao.jpg" alt="" class="imgCarta">
-                        <h2 class="h2Carta">
-                            Nos siga no instagram
-                        </h2>
+                        <img src="https://live.staticflickr.com/65535/54049024762_23b728ba0b_m.jpg" alt="" class="imgCarta">
+                        <div class="h2Carta">
+                            <h2>
+                                Nos siga no instagram
+                            </h2>
+                        </div>
                     </div>
                             
         `;
