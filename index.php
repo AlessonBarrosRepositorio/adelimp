@@ -42,15 +42,15 @@
                 <div class="navArea centro">                    
                     <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>
                     <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
-                    <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="objetivo()">Objetivo</b></div>
-                    <div class="btnNav01 centro somb what01 textSomb"><a href="https://wa.me/+5521981377922" target="_blank"class="centro">Fale Conosco</a></div>
+                    <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="objetivo()">Trabalhos</b></div>
+                    <div class="btnNav01 centro somb what01 fontWei"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
                 </div>                
             </nav>
             <img src="https://live.staticflickr.com/65535/54040292820_ef08e4b903_b.jpg" alt="" srcset="">
         </div>
         <div id="servico" class="areaConteudo03 centro bloco bloco02">
             <div class="btnHome somb centro " onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
-            <a href="https://wa.me/+5521981377922" class="btnWhats somb " target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
+            <a href="https://wa.me/+5521993565114" class="btnWhats somb " target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
             <div class="topArea03 centro"><h1>Nossos Serviços:</h1></div>
             
             <div class="slide 02">
@@ -65,11 +65,11 @@
             </div>
             <div class="bottomArea03 centro">
                 <h2>Solicite um Orçamento, atendimento 24 horas:</h2>
-                <a href="https://wa.me/+5521981377922" class="btnOrcamento centro somb textSomb" target="_blank">Fale Conosco</a>
+                <a href="https://wa.me/+5521981377922" class="btnOrcamento centro somb fontWei" target="_blank">Fale Conosco</a>
             </div>
         </div>
 
-
+    <iframe src="" frameborder="0"></iframe>
     </div>
 </body>
 
