@@ -28,7 +28,7 @@
     right: 2%;
     width: 46px;
     height: 46px;
-    background-color: chocolate;
+    background-color: #04045B;
     border-radius: 50%;
     
 }
@@ -174,7 +174,7 @@ font-weight: bolder;
     margin: auto;
     top: 10%;
     border-radius: 10px;
-    background-color: #04045B;
+    background-color:#fff4;
 
 }
 .navArea{
@@ -188,21 +188,29 @@ font-weight: bolder;
     height: 90%;
     margin-left:2%;
     margin-right:2%;
-    background-color: bisque;
+    background-color:  #04045B;
     border-radius: 10px;
 }
 .btnNav01:hover{
     cursor: pointer;
 }
 .btnNav01>b{
-    font-size: 70%;
+    font-size: 60%;
     font-weight: 700;
+    background-color: #fff;
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #04045B;
 
 }
 .areaConteudo03{
     height: 100%;
     flex-direction: column;
-    background-color: floralwhite;
+    background-color: white;
 }
 
 .what01{
@@ -345,4 +353,7 @@ font-weight: bolder;
     font-size: 100%;
     font-weight: 600;    
     margin-bottom: 5%;
+}
+.fontWei{
+    font-size: 150%;
 }

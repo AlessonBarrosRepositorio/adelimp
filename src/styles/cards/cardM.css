@@ -42,7 +42,7 @@
     text-align: center; /* Centraliza o texto dentro do elemento */
     width: 90%;
     height: 16%;
-    background-color: chocolate;
+    background-color: #04045B;
     border-radius: 10px;
     box-shadow: 1px 2px 6px black;
     display: flex;
@@ -50,8 +50,18 @@
     justify-content: center;
     font-weight: 900;
     font-size: 100%;
-    color:#fff;
-    text-shadow: 1px 2px 6px black;
+    color:#04045B;
+}
+.h2Carta>h2{
+    background-color: #fff;
+    width: 95%;
+    height: 80%;
+    font-size: 80%;
+    border-radius: 10px;    
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .imgCarta{
     width: 100%;
