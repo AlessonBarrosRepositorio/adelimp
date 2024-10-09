@@ -8,6 +8,7 @@
     <script src="./src/scripts/telaAjustavel.js" defer></script>
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link id="estiloPrincipal" rel="stylesheet" href="./src/styles/estiloPrincipal.css">
+    <link rel="stylesheet" href="./src/styles/galeria.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
@@ -28,6 +29,7 @@
     <script src="./src/scripts/cardScript/cardsCadastrados.js"></script>
     <script src="./src/scripts/cardScript/btnCardNav.js" defer></script>
     <script src="./src/scripts/cardScript/multiplicarSlider.js" defer></script>
+    <script src="./src/scripts/galeria.js" defer></script>
     
 </head>
 
@@ -69,8 +71,30 @@
             </div>
         </div>
         <div id="trabalhos" class="bloco">
-        <div class="btnHome somb centro " onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
-        <a href="https://wa.me/+5521993565114" class="btnWhats somb " target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
+            <div class="btnHome somb centro " onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
+            <a href="https://wa.me/+5521993565114" class="btnWhats somb " target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
+
+            <main class="selecao-de-personagens">
+                <section class="personagens">
+                    <h1 class="titulo">selecione um personagem</h1>
+                    <ul class="lista-de-personagens">
+                        <li class="personagem selecionado" id="ciclope" data-name="ciclope" data-description="ciclop">
+                            <img src="./src/imagens/card-ciclope.jpg" alt="personagem ciclop">
+                        </li>
+                        <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="jean grey">
+                            <img src="./src/imagens/card-jean-grey.jpg" alt="personagem jean grey">
+                        </li>
+                    </ul>
+                </section>
+                <section class="personagem-selecionado">
+                    <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="">
+                    <div class="informacoes-personagem">
+                        <h2 class="nome-personagem" id="nome-personagem">ciclop</h2>
+                        <p class="descricao-personagem" id="descricao-personagem">ciclop</p>
+                    </div>
+                </section>
+            </main>
+
         </div>
     </div>
 </body>
