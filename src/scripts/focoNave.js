@@ -8,8 +8,8 @@ function servico() {
         behavior: 'smooth'
     });
 }
-function objetivo() {
-    document.getElementById('objetivo').scrollIntoView({
+function trabalhos() {
+    document.getElementById('trabalhos').scrollIntoView({
         behavior: 'smooth'
     });
 }
