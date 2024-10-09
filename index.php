@@ -81,7 +81,7 @@
                         <li class="personagem selecionado" id="ciclope" data-name="ciclope" data-description="ciclop">
                             <img src="./src/imagens/card-ciclope.jpg" alt="personagem ciclop">
                         </li>
-                        <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="jean grey">
+                        <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="escreva aqui a descrição">
                             <img src="./src/imagens/card-jean-grey.jpg" alt="personagem jean grey">
                         </li>
                     </ul>
