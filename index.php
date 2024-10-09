@@ -70,7 +70,7 @@
                 <a href="https://wa.me/+5521981377922" class="btnOrcamento centro somb fontWei" target="_blank">Fale Conosco</a>
             </div>
         </div>
-        <div id="trabalhos" class="bloco">
+        <div id="trabalhos" class="bloco centro">
             <div class="btnHome somb centro " onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
             <a href="https://wa.me/+5521993565114" class="btnWhats somb " target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
 
