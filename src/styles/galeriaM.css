@@ -10,8 +10,8 @@ min-height: calc(100vh - 152px);*/
     position: relative;
 }
 .personagens{
-    height: 48%;
-    width: 88%;
+    height: 38%;
+    width: 98%;
     background-color: #4444;
     display: flex;
     align-items: center;
@@ -32,8 +32,8 @@ min-height: calc(100vh - 152px);*/
     justify-content: center;
     flex-direction: column;   
     text-align: center;
-    height: 48%;
-    width: 88%;
+    height: 58%;
+    width: 90%;
 }
 .personagem-selecionado .personagem-grande{
     width: 80%;
@@ -46,6 +46,12 @@ min-height: calc(100vh - 152px);*/
 .personagem{
     width: 15%;
     height: 24%;
+    background-color: aliceblue;
+    margin: 2%;  
+}
+.personagemS{
+    width: 15%;
+    height: 15%;
     background-color: aliceblue;
     margin: 2%;  
 }
