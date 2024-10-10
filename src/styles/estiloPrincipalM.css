@@ -57,8 +57,7 @@
     text-shadow: 1px 2px 2px black;
 }
 .areaConteudo02{
-    display: flex;
-    flex-direction: column;
+    height: 100%;
 }
 .areaConteudo01{
     height: 100%;

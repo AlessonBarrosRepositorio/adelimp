@@ -37,7 +37,7 @@ function ajustarTamanhoBody() {
             linkElement.href = linkElement.href.replace("estiloPrincipalM.css", "estiloPrincipal.css");
         }
     }
-      //----------------------------------------------------------------------------------------------
+        //----------------------------------------------------------------------------------------------
         const cardCss = document.getElementById('cardCSS');
         if (larguraJanela < alturaJanela) {
             // Adiciona "M" ao nome do arquivo se não estiver presente
@@ -50,6 +50,22 @@ function ajustarTamanhoBody() {
                 cardCss.href = cardCss.href.replace("cardM.css", "card.css");
             }
         }
+
+        //----------------------------------------------------------------------------------------------
+        const galeriaCss = document.getElementById('galeriaCSS');
+        if (larguraJanela < alturaJanela) {
+            // Adiciona "M" ao nome do arquivo se não estiver presente
+            if (!galeriaCss.href.includes("galeriaM.css")) {
+                galeriaCss.href = galeriaCss.href.replace("galeria.css", "galeriaM.css");
+            }
+        } else {
+            // Remove "M" do nome do arquivo se estiver presente
+            if (galeriaCss.href.includes("galeriaM.css")) {
+                galeriaCss.href = galeriaCss.href.replace("galeriaM.css", "galeria.css");
+            }
+        }
+        
+        
 }
 
 // Chama a função ao carregar a página

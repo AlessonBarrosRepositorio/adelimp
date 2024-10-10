@@ -8,7 +8,7 @@
     <script src="./src/scripts/telaAjustavel.js" defer></script>
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link id="estiloPrincipal" rel="stylesheet" href="./src/styles/estiloPrincipal.css">
-    <link rel="stylesheet" href="./src/styles/galeria.css">
+    <link id="galeriaCSS" rel="stylesheet" href="./src/styles/galeria.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
@@ -70,12 +70,12 @@
                 <a href="https://wa.me/+5521981377922" class="btnOrcamento centro somb fontWei" target="_blank">Fale Conosco</a>
             </div>
         </div>
-        <div id="trabalhos" class="bloco centro">
+        <div id="trabalhos" class="areaConteudo02 bloco bloco02 centro">
             <div class="btnHome somb centro " onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
             <a href="https://wa.me/+5521993565114" class="btnWhats somb " target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
 
             <main class="selecao-de-personagens">
-                <section class="personagens">
+                <section class="personagens bottom02area ">
                     <h1 class="titulo">Galeria de Trabalhos</h1>
                     <ul class="lista-de-personagens">
                         <li class="personagem selecionado" id="ciclope" data-name="ciclope" data-description="ciclop">
@@ -86,7 +86,7 @@
                         </li>                        
                     </ul>
                 </section>
-                <section class="personagem-selecionado">
+                <section class="personagem-selecionado top02area">
                     <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="">
                     <div class="informacoes-personagem">
                         <h2 class="nome-personagem" id="nome-personagem">ciclop</h2>
