@@ -38,16 +38,20 @@ min-height: calc(100vh - 152px);*/
     width: 15%;
     height: 24%;
     background-color: aliceblue;
-    margin: 2%;    
+    margin: 2%;  
 }
 .lista-de-personagens{
     display: flex;
     justify-content: center;
     width: 90%;
     height: 90%;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
     gap: 30px;
+    scrollbar-width: none; /* Para Firefox */
+    -ms-overflow-style: none; /* Para Internet Explorer e Edge */
+    overflow: auto; /* Permite a rolagem */
+    overflow: hidden;
+    overflow-y: scroll;
     
 }/*
 .selecao-de-personagens .lista-de-personagens{

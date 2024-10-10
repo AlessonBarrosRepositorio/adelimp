@@ -76,16 +76,14 @@
 
             <main class="selecao-de-personagens">
                 <section class="personagens">
-                    <h1 class="titulo">selecione um personagem</h1>
+                    <h1 class="titulo">Galeria de Trabalhos</h1>
                     <ul class="lista-de-personagens">
                         <li class="personagem selecionado" id="ciclope" data-name="ciclope" data-description="ciclop">
                             <img src="./src/imagens/card-ciclope.jpg" alt="personagem ciclop">
                         </li>
-                        <li class="personagem" id="fundo01Cynthia" data-name="Jean Grey" data-description="escreva aqui a descrição">
+                        <li class="personagem" id="fundo01Cynthia" data-name="rede" data-description="escreva aqui a descrição">
                             <img src="./src/midia/imgs/PrimeiraPagina/fundo/card-fundo01Cynthia.png" alt="personagem jean grey">
-                        </li>
-
-                        
+                        </li>                        
                     </ul>
                 </section>
                 <section class="personagem-selecionado">
