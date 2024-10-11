@@ -30,6 +30,7 @@
     height: 46px;
     background-color: #04045B;
     border-radius: 50%;
+    z-index: 99;
     
 }
 .btnHome:hover{
@@ -38,6 +39,8 @@
 .btnHome>img{
     width: 80%;
     height: 70%;
+    z-index: 99;
+
 }
 .btnWhats{
     position: absolute;
@@ -48,10 +51,13 @@
     background-color: #00D757;
     border-radius: 50%;
     overflow: hidden;
+    z-index: 99;
+
 }
 .btnWhats>img{
     width: 100%;
     height: 100%;
+    z-index: 99;
 }
 .textSomb{
     text-shadow: 1px 2px 2px black;
@@ -160,7 +166,7 @@ font-weight: bolder;
     font-weight: bold;
 }
 .logo01{
-    width: 10%;
+    width: 32%;
     left: 2%;
     top:2%;
 }
