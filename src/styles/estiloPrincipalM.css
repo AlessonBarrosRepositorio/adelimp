@@ -170,6 +170,44 @@ font-weight: bolder;
     left: 2%;
     top:2%;
 }
+.butaodeOpcoes{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    border-radius: 50%;
+    box-shadow: 1px 3px 6px black;
+    z-index: 9999;
+}
+.areaTIRA{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tira{
+    width: 90%;
+    height:10%;
+    margin: 3% 0 3% 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.butaodeOpcoes, .areaTIRA, .tira:hover{
+    cursor: pointer;
+}
+.opcoes{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw; /* Faz o elemento ter a largura da viewport */
+    height: 100vh; /* Faz o elemento ter a altura da viewport */
+    background-color: rgba(0, 0, 0, 0.5); /* Exemplo de fundo */
+    display: none;
+}
 .nave{
     z-index: 99;
     width: 90%;
@@ -271,11 +309,9 @@ font-weight: bolder;
     padding:0 2% 0 2%;
 }
 .noneMob{
-    display: block;
-}
-.noneDesk{
     display: none;
 }
+
 #areaSlide {
     will-change: transform, opacity;
   }

@@ -30,29 +30,49 @@
     <script src="./src/scripts/cardScript/btnCardNav.js" defer></script>
     <script src="./src/scripts/cardScript/multiplicarSlider.js" defer></script>
     <script src="./src/scripts/galeria.js" defer></script>
+    <script src="./src/scripts/btnOpcoes.js" defer></script>
     
 </head>
 
 <body>
+<button id="show-or-hide" class="butaodeOpcoes noneDesk">
+                <div class="areaTIRA">
+                    <div class="tira"></div>
+                    <div class="tira"></div>
+                    <div class="tira"></div>
+                </div>
+                <div id="Opcoes" class="opcoes">
+                    <nav class="nave absolute somb centro 02">
+                        <div class="navArea centro">
+                        <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
+                        <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div>                   
+                            <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>
+                            <div class="btnNav01 centro somb what01 fontWei"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
+                        </div>                
+                    </nav>
+                </div>
+            </button>
     <div class="areaConteudo">
         <div id="home" class="areaConteudo01 bloco bloco02">
             <div class="logo01 absolute 02">
                 <img src="https://live.staticflickr.com/65535/54039125842_fa1e78e187_m.jpg" alt="" srcset="">
             </div>
-            <div class="textoArea01 absolute"></div>
-            <nav class="nave absolute somb centro 02">
+            <nav class="nave absolute somb centro  noneMob">
                 <div class="navArea centro">
                 <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
                 <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div>                   
-                    <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>
-                    <div class="btnNav01 centro somb what01 fontWei"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
+                <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>
+                <div class="btnNav01 centro somb"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
                 </div>                
             </nav>
+            <div class="textoArea01 absolute"></div>
+
+
             <img src="https://live.staticflickr.com/65535/54040292820_ef08e4b903_b.jpg" alt="" srcset="">
         </div>        
         <div id="servico" class="areaConteudo03 centro bloco bloco02">
-            <div class="btnHome somb centro " onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
-            <a href="https://wa.me/+5521993565114" class="btnWhats somb " target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
+            <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
+            <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
             <div class="topArea03 centro"><h1>Nossos Serviços:</h1></div>
             
             <div class="slide 02">
@@ -71,8 +91,8 @@
             </div>
         </div>
         <div id="trabalhos" class="areaConteudo02 bloco bloco02 centro">
-            <div class="btnHome somb centro " onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
-            <a href="https://wa.me/+5521993565114" class="btnWhats somb " target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
+            <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
+            <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
 
             <main class="selecao-de-personagens">
                 <section class="personagens bottom02area ">

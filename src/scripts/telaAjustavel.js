@@ -19,10 +19,13 @@ function ajustarTamanhoBody() {
     // Obtém a largura e a altura da janela
     const larguraJanela = window.innerWidth;
     const alturaJanela = window.innerHeight;
+    const opcoes = document.getElementById('Opcoes');
 
     // Define a largura e a altura do body no CSS
     document.body.style.width = `${larguraJanela}px`;
     document.body.style.height = `${alturaJanela}px`;
+
+
 
     // Verifica se a largura é menor que a altura e ajusta o CSS
     const linkElement = document.getElementById('estiloPrincipal');
