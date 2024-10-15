@@ -87,7 +87,7 @@
             </div>
             <div class="bottomArea03 centro">
                 <h2>Solicite um Orçamento, atendimento 24 horas:</h2>
-                <a href="https://wa.me/+5521981377922" class="btnOrcamento centro somb fontWei" target="_blank">Fale Conosco</a>
+                <a href="https://wa.me/+5521981377922" class="btnOrcamento centro somb " target="_blank">Fale Conosco</a>
             </div>
         </div>
         <div id="trabalhos" class="areaConteudo02 bloco bloco02 centro">
