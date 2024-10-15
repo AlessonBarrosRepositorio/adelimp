@@ -42,8 +42,8 @@
                     <div class="tira"></div>
                 </div>
                 <div id="Opcoes" class="opcoes">
-                    <nav class="nave absolute somb centro 02">
-                        <div class="navArea centro">
+                    <nav class="nave absolute  centro 02">
+                        <div class="navArea">
                         <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
                         <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div>                   
                             <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>

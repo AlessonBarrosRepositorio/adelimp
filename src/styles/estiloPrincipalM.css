@@ -171,7 +171,7 @@ font-weight: bolder;
     top:2%;
 }
 .butaodeOpcoes{
-    position: absolute;
+    position: fixed;
     top: 2%;
     right: 5%;
     width: 60px;
@@ -203,33 +203,38 @@ font-weight: bolder;
     position: fixed;
     top: 0;
     right: 0;
-    width: 100vw; /* Faz o elemento ter a largura da viewport */
+    width: 50%; /* Faz o elemento ter a largura da viewport */
     height: 100vh; /* Faz o elemento ter a altura da viewport */
-    background-color: rgba(0, 0, 0, 0.5); /* Exemplo de fundo */
+    background-color: #aaaa; /* Exemplo de fundo */
     display: none;
+    z-index: 98;
 }
 .nave{
     z-index: 99;
-    width: 90%;
-    height: 8%;
+    width: 100%;
+    height: 90%;
     left: 0;
     right: 0;
     margin: auto;
     top: 10%;
     border-radius: 10px;
-    background-color:#fff4;
-
+    position: absolute;
 }
 .navArea{   
-    width: 98%;
+    width: 90%;
     height: 98%;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right:0;
+    display: flex;
 }
 .btnNav01{
-    width: 28%;
-    height: 90%;
-    margin-left:2%;
-    margin-right:2%;
+    width: 88%;
+    height: 5%;
+    margin-top:8%;
+    margin-bottom:8%;
     background-color:  #04045B;
     border-radius: 10px;
 }
@@ -237,7 +242,7 @@ font-weight: bolder;
     cursor: pointer;
 }
 .btnNav01>b{
-    font-size: 60%;
+    font-size:1rem;
     font-weight: 700;
     background-color: #fff;
     width: 80%;
