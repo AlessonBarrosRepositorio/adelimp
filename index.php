@@ -35,23 +35,23 @@
 </head>
 
 <body>
-<button id="show-or-hide" class="butaodeOpcoes noneDesk">
-                <div class="areaTIRA">
-                    <div class="tira"></div>
-                    <div class="tira"></div>
-                    <div class="tira"></div>
-                </div>
-                <div id="Opcoes" class="opcoes">
-                    <nav class="nave absolute somb centro 02">
-                        <div class="navArea centro">
-                        <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
-                        <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div>                   
-                            <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>
-                            <div class="btnNav01 centro somb what01 fontWei"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
-                        </div>                
-                    </nav>
-                </div>
-            </button>
+    <button id="show-or-hide" class="butaodeOpcoes noneDesk">
+        <div class="areaTIRA">
+            <div class="tira"></div>
+            <div class="tira"></div>
+            <div class="tira"></div>
+        </div>
+        <div id="Opcoes" class="opcoes">
+            <nav class="nave absolute somb centro 02">
+                <div class="navArea centro">
+                <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
+                <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div>                   
+                    <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>
+                    <div class="btnNav01 centro somb what01 fontWei"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
+                </div>                
+            </nav>
+        </div>
+    </button>
     <div class="areaConteudo">
         <div id="home" class="areaConteudo01 bloco bloco02">
             <div class="logo01 absolute 02">
