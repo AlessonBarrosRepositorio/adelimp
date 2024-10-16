@@ -26,9 +26,9 @@ min-height: calc(100vh - 152px);*/
     height: 92%;
     width: 48%;
 }
-.personagem-selecionado .personagem-grande{
-    width: 80%;
-    height:90%;
+.personagem-grande{
+    width: 60%;
+    height:70%;
 }
 .informacoes-personagem{
     width: 100%;
@@ -53,6 +53,16 @@ min-height: calc(100vh - 152px);*/
     overflow: hidden;
     overflow-y: scroll;
     
+}
+.nome-personagem{
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+.descricao-personagem{
+    font-size: 0.5rem;
+}
+.titulo{
+    font-size: 1rem;
 }/*
 .selecao-de-personagens .lista-de-personagens{
     display: flex;
