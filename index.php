@@ -96,15 +96,24 @@
             <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
 
             <main class="selecao-de-personagens">
-                <section class="personagens bottom02area ">
+                <section class="personagens bottom02area somb">
                     <h1 class="titulo">Galeria de Trabalhos</h1>
                     <ul class="lista-de-personagens">
-                        <li class="personagem selecionado" id="ciclope" data-name="ciclope" data-description="ciclop">
-                            <img src="./src/imagens/card-ciclope.jpg" alt="personagem ciclop">
+                        <li class="personagem selecionado" id="imagem01" data-name="ciclope" data-description="ciclop">
+                            <img src="https://live.staticflickr.com/65535/54073649461_8deb6f0661_t.jpg" alt="personagem ciclop">
                         </li>
-                        <li class="personagem" id="fundo01Cynthia" data-name="rede" data-description="escreva aqui a descrição">
-                            <img src="./src/midia/imgs/PrimeiraPagina/fundo/card-fundo01Cynthia.png" alt="personagem jean grey">
-                        </li>                        
+                        <li class="personagem" id="imagem02" data-name="rede" data-description="escreva aqui a descrição">
+                            <img src="https://live.staticflickr.com/65535/54072766537_ff17ec2e7e_t.jpg" alt="personagem jean grey">
+                        </li>
+                        <li class="personagem" id="imagem03" data-name="rede" data-description="escreva aqui a descrição">
+                            <img src="https://live.staticflickr.com/65535/54074104115_ce88bde34c_t.jpg" alt="personagem jean grey">
+                        </li> 
+                        <li class="personagem" id="imagem04" data-name="rede" data-description="escreva aqui a descrição">
+                            <img src="https://live.staticflickr.com/65535/54072766552_c6b19d9e01_t.jpg" alt="personagem jean grey">
+                        </li> 
+                        <li class="personagem" id="imagem05" data-name="rede" data-description="escreva aqui a descrição">
+                            <img src="https://live.staticflickr.com/65535/54072766567_f6ff325d63_t.jpg" alt="personagem jean grey">
+                        </li>                         
                     </ul>
                 </section>
                 <section class="personagem-selecionado top02area">

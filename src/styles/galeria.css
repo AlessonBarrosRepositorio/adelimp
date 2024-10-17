@@ -16,6 +16,7 @@ min-height: calc(100vh - 152px);*/
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 10px;
 }
 .personagem-selecionado{
     display: flex;
