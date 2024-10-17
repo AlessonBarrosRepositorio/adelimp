@@ -117,7 +117,7 @@
                     </ul>
                 </section>
                 <section class="personagem-selecionado top02area">
-                    <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="">
+                    <img class="personagem-grande" src="https://live.staticflickr.com/65535/54073654536_d8ea0a9b79_m.jpg" alt="">
                     <div class="informacoes-personagem">
                         <h2 class="nome-personagem" id="nome-personagem">ciclop</h2>
                         <p class="descricao-personagem" id="descricao-personagem">ciclop</p>

@@ -17,6 +17,14 @@ min-height: calc(100vh - 152px);*/
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
+
+}
+.personagem{
+    box-shadow: 1px 2px 6px black;
+    border-radius: 10px;  
+}
+.personagem>img{
+    border-radius: 10px;    
 }
 .personagem-selecionado{
     display: flex;
@@ -30,6 +38,8 @@ min-height: calc(100vh - 152px);*/
 .personagem-grande{
     width: 60%;
     height:70%;
+    box-shadow: 1px 2px 6px black;
+    border-radius: 10px;  
 }
 .informacoes-personagem{
     width: 100%;
