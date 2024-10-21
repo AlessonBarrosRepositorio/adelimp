@@ -20,7 +20,6 @@ min-height: calc(100vh - 152px);*/
 
 }
 .personagem{
-    box-shadow: 1px 2px 6px black;
     border-radius: 10px;  
 }
 .personagem>img{
@@ -57,13 +56,15 @@ min-height: calc(100vh - 152px);*/
     width: 90%;
     height: 90%;
     flex-wrap: wrap;    
-    gap: 30px;
+    gap: 2px;
     scrollbar-width: none; /* Para Firefox */
     -ms-overflow-style: none; /* Para Internet Explorer e Edge */
     overflow: auto; /* Permite a rolagem */
     overflow: hidden;
     overflow-y: scroll;
     
+}.informacoes-personagem{
+    margin-top:1rem;
 }
 .nome-personagem{
     font-size: 0.6rem;

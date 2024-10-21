@@ -35,28 +35,29 @@
 </head>
 
 <body>
-<button id="show-or-hide" class="butaodeOpcoes noneDesk">
-                <div class="areaTIRA">
-                    <div class="tira"></div>
-                    <div class="tira"></div>
-                    <div class="tira"></div>
-                </div>
-                <div id="Opcoes" class="opcoes">
-                    <nav class="nave absolute  centro 02">
-                        <div class="navArea">
-                        <div class="btnNav01 centro somb" onclick="home()"><b onclick="home()">Pagina Principal</b></div>
-                        <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
-                        <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div>                   
-                        
-                        <div class="btnNav01 centro somb what01 fontWei"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
-                        </div>                
-                    </nav>
-                </div>
-            </button>
+    <button id="show-or-hide" class="butaodeOpcoes noneDesk">
+        <div class="areaTIRA">
+            <div class="tira"></div>
+            <div class="tira"></div>
+            <div class="tira"></div>
+        </div>
+        <div id="Opcoes" class="opcoes">
+            <nav class="nave absolute  centro 02">
+                <div class="navArea">
+                <div class="btnNav01 centro somb" onclick="home()"><b onclick="home()">Pagina Principal</b></div>
+                <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
+                <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div>                   
+                
+                <div class="btnNav01 centro somb what01 fontWei"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
+                </div>                
+            </nav>
+        </div>
+    </button>
     <div class="areaConteudo">
         <div id="home" class="areaConteudo01 bloco bloco02">
             <div class="logo01 absolute 02">
                 <img src="https://live.staticflickr.com/65535/54039125842_fa1e78e187_m.jpg" alt="" srcset="">
+                
             </div>
             <nav class="nave absolute somb centro  noneMob">
                 <div class="navArea centro">
@@ -69,7 +70,8 @@
             <div class="textoArea01 absolute"></div>
 
 
-            <img src="https://live.staticflickr.com/65535/54040292820_ef08e4b903_b.jpg" alt="" srcset="">
+            <img class="noneMob"  src="https://live.staticflickr.com/65535/54040292820_ef08e4b903_b.jpg" alt="" srcset="">
+            <img class="noneDesk" src="https://live.staticflickr.com/65535/54083156276_bdf8b722f1_o.png" alt="" srcset="">
         </div>        
         <div id="servico" class="areaConteudo03 centro bloco bloco02">
             <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
@@ -99,20 +101,20 @@
                 <section class="personagens bottom02area somb">
                     <h1 class="titulo">Galeria de Trabalhos</h1>
                     <ul class="lista-de-personagens">
-                        <li class="personagem selecionado" id="imagem01" data-name="ciclope" data-description="ciclop">
-                            <img src="https://live.staticflickr.com/65535/54073649461_8deb6f0661_t.jpg" alt="personagem ciclop">
+                        <li class="personagem selecionado" id="imagem01" data-name="Tela de Janela" data-description="Tela de Janela">
+                            <img src="https://live.staticflickr.com/65535/54073649461_8deb6f0661_t.jpg" alt="Explicação">
                         </li>
                         <li class="personagem" id="imagem02" data-name="rede" data-description="escreva aqui a descrição">
-                            <img src="https://live.staticflickr.com/65535/54072766537_ff17ec2e7e_t.jpg" alt="personagem jean grey">
+                            <img src="https://live.staticflickr.com/65535/54072766537_ff17ec2e7e_t.jpg" alt="Tela de Janela">
                         </li>
                         <li class="personagem" id="imagem03" data-name="rede" data-description="escreva aqui a descrição">
-                            <img src="https://live.staticflickr.com/65535/54074104115_ce88bde34c_t.jpg" alt="personagem jean grey">
+                            <img src="https://live.staticflickr.com/65535/54074104115_ce88bde34c_t.jpg" alt="">
                         </li> 
                         <li class="personagem" id="imagem04" data-name="rede" data-description="escreva aqui a descrição">
-                            <img src="https://live.staticflickr.com/65535/54072766552_c6b19d9e01_t.jpg" alt="personagem jean grey">
+                            <img src="https://live.staticflickr.com/65535/54072766552_c6b19d9e01_t.jpg" alt="">
                         </li> 
                         <li class="personagem" id="imagem05" data-name="rede" data-description="escreva aqui a descrição">
-                            <img src="https://live.staticflickr.com/65535/54072766567_f6ff325d63_t.jpg" alt="personagem jean grey">
+                            <img src="https://live.staticflickr.com/65535/54072766567_f6ff325d63_t.jpg" alt="">
                         </li>                         
                     </ul>
                 </section>

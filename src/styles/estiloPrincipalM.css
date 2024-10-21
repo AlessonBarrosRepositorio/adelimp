@@ -207,7 +207,6 @@ font-weight: bolder;
     height: 100vh; /* Faz o elemento ter a altura da viewport */
     background-color: #aaaa; /* Exemplo de fundo */
     display: none;
-    z-index: 98;
 }
 .nave{
     z-index: 99;
@@ -232,7 +231,7 @@ font-weight: bolder;
 }
 .btnNav01{
     width: 88%;
-    height: 5%;
+    height: 10%;
     margin-top:8%;
     margin-bottom:8%;
     background-color:  #04045B;
@@ -282,7 +281,7 @@ font-weight: bolder;
 }
 .topArea03>h1{
     font-weight: bolder;
-    font-size: 100%;
+    font-size: 1.5rem;
 }
 .bottomArea03{
     width: 100%;
@@ -293,10 +292,10 @@ font-weight: bolder;
 }
 
 .bottomArea03>h2{
-    font-size: 100%;
-    font-weight:300%;
+    font-size: .88rem;
+    font-weight:700;
     position: absolute;
-    top: 2%;
+    top: 2rem;
     
 }
 
@@ -307,7 +306,7 @@ font-weight: bolder;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 0.8rem;
     color: #fff;
     position: absolute;
     bottom: 15%;

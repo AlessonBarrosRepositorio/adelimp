@@ -22,7 +22,7 @@
 }
 .btnHome{
     position: absolute;
-    top: 2%;
+    top: .5rem;
     right: 2%;
     width: 46px;
     height: 46px;
@@ -39,7 +39,7 @@
 }
 .btnWhats{
     position: absolute;
-    top: 12%;
+    top: 4rem;
     right: 2%;
     width: 46px;
     height: 46px;

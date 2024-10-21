@@ -26,7 +26,7 @@ min-height: calc(100vh - 152px);*/
 }
 .bottom02area{
     position: absolute;
-    bottom: 5%;
+    bottom: 0;
 }
 .personagem-selecionado{
     display: flex;
@@ -51,7 +51,11 @@ min-height: calc(100vh - 152px);*/
     width: 20%;
     height: 32%;
     background-color: aliceblue;
-    margin: 2%;  
+    margin: 2%;
+    border-radius: 10px;  
+}
+.personagem>img{
+    border-radius: 10px;
 }
 .personagemS{
     width: 15%;
@@ -65,7 +69,7 @@ min-height: calc(100vh - 152px);*/
     width: 90%;
     height: 90%;
     flex-wrap: wrap;    
-    gap: 30px;
+    gap: 2px;
     scrollbar-width: none; /* Para Firefox */
     -ms-overflow-style: none; /* Para Internet Explorer e Edge */
     overflow: auto; /* Permite a rolagem */
@@ -73,12 +77,15 @@ min-height: calc(100vh - 152px);*/
     overflow-y: scroll;
     
 }
+.informacoes-personagem{
+    margin-top:1rem;
+}
 .nome-personagem{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 700;
 }
 .descricao-personagem{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
 }
 .titulo{
     font-size: 1rem;

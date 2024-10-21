@@ -59,7 +59,7 @@ function cards() {
                         <a target="_blank" class="imgCarta" href="https://maps.app.goo.gl/puM3S3Rue1uzUD6t7"><img src="https://live.staticflickr.com/65535/54050149855_15da1fbf53_m.jpg" alt="" class="imgCarta"></a>
                         <div class="h2Carta">
                             <h2>
-                                Nos encontre Aqui
+                                <a target="_blank" class="imgCarta" href="https://maps.app.goo.gl/puM3S3Rue1uzUD6t7">Nos encontre Aqui</a>
                             </h2>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ function cards() {
                        <a  target="_blank" href="https://www.instagram.com/adelimprj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="imgCarta"><img src="https://live.staticflickr.com/65535/54049024762_23b728ba0b_m.jpg" alt="" class="imgCarta"></a>
                         <div class="h2Carta">
                             <h2>
-                                Nos siga no instagram
+                                <a  target="_blank" href="https://www.instagram.com/adelimprj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Nos siga no instagram</a>
                             </h2>
                         </div>
                     </div>
