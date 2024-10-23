@@ -1,5 +1,5 @@
 function quemSou() {
-    document.getElementById('quemSou').scrollIntoView({
+    document.getElementById('quemSomos').scrollIntoView({
         behavior: 'smooth'
     });
 }
