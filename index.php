@@ -27,8 +27,11 @@
     <script src="./src/scripts/focoNave.js" defer></script>
     
     <script src="./src/scripts/cardScript/cardsCadastrados.js"></script>
+    <script src="./src/scripts/cardScript/cardsCadastradoQuemSomos.js"></script>
     <script src="./src/scripts/cardScript/btnCardNav.js" defer></script>
     <script src="./src/scripts/cardScript/multiplicarSlider.js" defer></script>
+    <script src="./src/scripts/cardScript/btnCardNavQS.js" defer></script>
+    <script src="./src/scripts/cardScript/multiplicarSliderQS.js" defer></script>
     <script src="./src/scripts/galeria.js" defer></script>
     <script src="./src/scripts/btnOpcoes.js" defer></script>
     
@@ -79,9 +82,7 @@
             <div class="topArea03 centro"><h1>Nossos Serviços:</h1></div>
             
             <div class="slide 02">
-                <div class="areaSlide" id="areaSlide">
-                                     
-                    
+                <div class="areaSlide" id="areaSlide">              
                 </div>
                 <div class="areaEsfumadaEsquerda"></div>
                 <div class="areaEsfumadaDireita"></div>
@@ -141,7 +142,17 @@
                         <h2>Nos sigam nas Redes Sociais:</h2>
                     </div>
                 </div>
-                <div class="cimaLDireita">eae</div>
+                <div class="cimaLDireita centro">
+                    
+                    <div class="slide">
+                        <div class="areaSlide" id="areaSlideQuemSomos"></div>
+                        <div class="areaEsfumadaEsquerda"></div>
+                        <div class="areaEsfumadaDireita"></div>
+                        <button class="scroll-btn scroll-left-btn" id="scrollLeftBtnQS">&lt;</button>
+                        <button class="scroll-btn scroll-right-btn" id="scrollRightBtnQS">&gt;</button>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </div>

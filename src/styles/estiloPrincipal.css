@@ -361,3 +361,9 @@ html {
     font-size: 0.7rem;
     text-align: center;
 }
+.anuncios {
+    width: 500px;
+    height: 320px;
+    background-color: gray;
+    position: absolute;
+}

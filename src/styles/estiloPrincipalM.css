@@ -401,3 +401,35 @@ font-weight: bolder;
 .fontWei{
     font-size: 150%;
 }
+.quemSomosArea{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.cimaLEsquerda{
+    width: 98%;
+    height: 48%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.cimaLDireita{
+    width: 98%;
+    height: 48%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.cimaDentroEsquerda{
+    width: 98%;
+    height: 48%;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.baixoDentroEsquerda{
+    width: 98%;
+    height: 48%;
+    font-size: 0.7rem;
+    text-align: center;
+}
