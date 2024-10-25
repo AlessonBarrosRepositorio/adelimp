@@ -31,6 +31,9 @@
     border-radius: 10px;
     position: relative;
     display: flex;
+}.carta02{
+    min-width: 98%;
+    min-height: 98%;
 }
 .h2Carta{
     position: absolute;

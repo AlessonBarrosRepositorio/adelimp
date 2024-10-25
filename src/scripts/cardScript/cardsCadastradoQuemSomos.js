@@ -13,7 +13,7 @@ function cards02() {
     if (containerEventos) {
         containerEventos.innerHTML = `
   
-                    <div class="carta" id="carta01">
+                    <div class="carta carta02" id="carta01">
                         <img src="https://live.staticflickr.com/65535/54049000212_d59c306347_m.jpg" alt="" class="imgCarta">
                         <div class="h2Carta">
                             <h2>
@@ -21,7 +21,7 @@ function cards02() {
                             </h2>
                         </div>
                     </div>
-                    <div class="carta">
+                    <div class="carta carta02">
                         <img src="https://live.staticflickr.com/65535/54050269265_f40490a457_m.jpg" alt="" class="imgCarta">
                         <div class="h2Carta">
                             <h2>
@@ -30,7 +30,7 @@ function cards02() {
                         </div>
 
                     </div>
-                    <div class="carta">
+                    <div class="carta carta02">
                         <img src="https://live.staticflickr.com/65535/54040411304_4c7c802ba3_m.jpg" alt="" class="imgCarta">
                         <div class="h2Carta">
                             <h2>
@@ -38,7 +38,7 @@ function cards02() {
                             </h2>
                         </div>
                     </div>
-                    <div class="carta">
+                    <div class="carta carta02">
                         <img src="https://live.staticflickr.com/65535/54049661141_4a1d4c6daf_m.jpg" alt="" class="imgCarta">
                         <div class="h2Carta">
                             <h2>
