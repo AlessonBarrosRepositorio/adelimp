@@ -35,6 +35,7 @@ function scrollRight02() {
 
 // Função para a rolagem automática para a direita
 function startAutoScroll() {
+    stopAutoScroll(); // Garante que não haverá acúmulo de intervalos
     scrollInterval = setInterval(() => {
         if (!autoScrollPaused) {
             scrollRight02();
@@ -42,25 +43,30 @@ function startAutoScroll() {
     }, 5000);
 }
 
-// Interrompe a rolagem automática por um tempo ao clicar no botão
+// Interrompe a rolagem automática temporariamente ao clicar no botão
 function pauseAutoScroll() {
     autoScrollPaused = true;
-    clearInterval(scrollInterval); // para o intervalo atual
+    stopAutoScroll(); // Para o intervalo atual
     setTimeout(() => {
-        autoScrollPaused = false; // retoma a rolagem automática após 3 segundos
+        autoScrollPaused = false; // Retoma a rolagem automática após 7 segundos
         startAutoScroll();
     }, 7000);
 }
 
+// Para a rolagem automática imediatamente
+function stopAutoScroll() {
+    if (scrollInterval) clearInterval(scrollInterval);
+}
+
 scrollLeftBtn02.addEventListener('click', (event) => {
     event.preventDefault();
-    pauseAutoScroll(); // pausa a rolagem automática
+    pauseAutoScroll(); // Pausa a rolagem automática
     scrollLeft02();
 });
 
 scrollRightBtn02.addEventListener('click', (event) => {
     event.preventDefault();
-    pauseAutoScroll(); // pausa a rolagem automática
+    pauseAutoScroll(); // Pausa a rolagem automática
     scrollRight02();
 });
 
@@ -87,12 +93,9 @@ areaSlide02.addEventListener('mousemove', (event) => {
     areaSlide02.scrollLeft = scrollLeftDrag02 - walk;
 });
 
+// Define a largura inicial quando a página carrega
 document.addEventListener('DOMContentLoaded', function() {
-    if (carregou02) {
-        scrollToMiddlePos02();
-        carregou02 = false;
-    }
+    const initialWidth = areaSlide02.scrollWidth;
+    areaSlide02.style.width = `${initialWidth}px`;
+    startAutoScroll(); // Inicia a rolagem automática assim que a página carrega
 });
-
-rememberMiddleScrollPos02();
-startAutoScroll(); // Inicia a rolagem automática assim que a página carrega

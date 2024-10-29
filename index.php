@@ -135,12 +135,23 @@
             <div class="quemSomosArea centro">
                 <div class="cimaLEsquerda">
                     <div class="cimaDentroEsquerda">
-                        <h1>Informações Institucionais</h1>
-
+                        <div class="cimaDentroEsquerdaAreaCima">                            
+                            <h1>Informações Institucionais</h1>
+                        </div>
+                        <div class="cimaDentroEsquerdaAreaBaixo">
+                            <ul>
+                                <li>CNPJ: 10.446.358/0001-04</li>
+                                <li>Telefone: (21) 2548-9379</li>
+                                <li>Telefone: (21) 2548-9712</li>
+                                <li>Celular: (21) 99356-5114</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="baixoDentroEsquerda">
                         <h2>Nos sigam nas Redes Sociais:</h2>
+
                     </div>
+                    
                 </div>
                 <div class="cimaLDireita centro">
                     
