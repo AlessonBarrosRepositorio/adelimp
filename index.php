@@ -139,28 +139,42 @@
                             <h1>Informações Institucionais</h1>
                         </div>
                         <div class="cimaDentroEsquerdaAreaBaixo">
-                            <ul>
-                                <li>CNPJ: 10.446.358/0001-04</li>
+                            <ul>                                
                                 <li>Telefone: (21) 2548-9379</li>
                                 <li>Telefone: (21) 2548-9712</li>
                                 <li>Celular: (21) 99356-5114</li>
+                                <li>Endereço: Rua Barata Ribeiro 692, Lj 21 e 23 - Copacabana</li>
+                                <li>CNPJ: 10.446.358/0001-04</li>
                             </ul>
                         </div>
                     </div>
                     <div class="baixoDentroEsquerda">
-                        <h2>Nos sigam nas Redes Sociais:</h2>
-
+                        <div class="baixoDentroEsquerdaAreaCima">
+                            <h2>Nos sigam nas Redes Sociais:</h2>
+                        </div>
+                        <div class="baixoDentroEsquerdaAreaBaixo">
+                            
+                        </div>
+                        
                     </div>
                     
                 </div>
                 <div class="cimaLDireita centro">
-                    
+                    <div class="cimaDentroDireitaAreaCima">                            
+                        <h1>Conheça Nossa Loja</h1>
+                    </div>
                     <div class="slide">
                         <div class="areaSlide" id="areaSlideQuemSomos"></div>
                         <div class="areaEsfumadaEsquerda"></div>
                         <div class="areaEsfumadaDireita"></div>
                         <button class="scroll-btn scroll-left-btn" id="scrollLeftBtnQS">&lt;</button>
                         <button class="scroll-btn scroll-right-btn" id="scrollRightBtnQS">&gt;</button>
+                    </div>
+                    <div class="cimaDentroDireitaAreaBaixo">
+                            <p>É um prazer muito grande participar da proteção da sua casa
+                                e sempre fazemos o melhor para atender as necessidades e 
+                                especificações dos nosso clientes.
+                            </p>
                     </div>
                     
                 </div>

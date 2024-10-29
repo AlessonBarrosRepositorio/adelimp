@@ -352,8 +352,6 @@ html {
 .cimaDentroEsquerda{
     width: 98%;
     height: 48%;
-    font-size: 0.7rem;
-    text-align: center;
 }
 .baixoDentroEsquerda{
     width: 98%;
@@ -361,9 +359,42 @@ html {
     font-size: 0.7rem;
     text-align: center;
 }
-.anuncios {
-    width: 500px;
-    height: 320px;
-    background-color: gray;
-    position: absolute;
+.cimaDentroEsquerdaAreaCima{
+    width: 100%;
+    height: 18%;    
+    font-size: 0.7rem;
+    text-align: center;
+}
+.cimaDentroEsquerdaAreaBaixo{
+    width: 100%;
+    height: 82%;
+    display: flex;
+    align-items: center;        
+    font-size: 0.7rem;
+}
+.cimaDentroEsquerdaAreaBaixo>ul>li{
+    margin-top: 2.5%;
+        
+    font-size: 0.5rem;
+}
+.cimaDentroDireitaAreaCima{
+    width: 80%;
+    height: 24%;    
+    font-size: 0.7rem;
+    text-align: center;
+}
+.cimaDentroDireitaAreaBaixo{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    align-items: center;        
+    font-size: 0.7rem;
+}
+.baixoDentroEsquerdaAreaCima{
+    width: 100%;
+    height: 18%;
+}
+.baixoDentroEsquerdaAreaBaixo{
+    width: 100%;
+    height: 82%;
 }
