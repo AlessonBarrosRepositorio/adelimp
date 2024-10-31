@@ -27,3 +27,8 @@ ul{
     border:2px solid #fff;
     box-shadow: 0px 0px 10px #fff;
 }
+.textoSecreto{
+    position: absolute;
+    z-index: -1;
+    color: #fff0;
+}
