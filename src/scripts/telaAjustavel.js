@@ -75,4 +75,9 @@ function ajustarTamanhoBody() {
 window.onload = ajustarTamanhoBody;
 
 // Chama a função sempre que a janela for redimensionada
-window.onresize = ajustarTamanhoBody;
+window.onresize = () => {
+    setTimeout(() => {
+        window.location.reload();
+    }, 500); 
+    ajustarTamanhoBody();
+};
