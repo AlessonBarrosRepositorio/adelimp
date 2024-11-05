@@ -80,6 +80,8 @@
                 </div>                
             </nav>
             <div class="textoArea01 absolute"></div>
+            <div class="AreaEsquerdaCoteundo01"></div>
+            <div class="AreaDireitaCoteundo01"></div>
 
 
             <img class="noneMob"  src="https://live.staticflickr.com/65535/54040292820_ef08e4b903_b.jpg" alt="" srcset="">
