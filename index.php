@@ -41,6 +41,8 @@
     <script src="./src/scripts/galeria.js" defer></script>
     <script src="./src/scripts/btnOpcoes.js" defer></script>
     
+    <link rel="icon" href="src/midia/imgs/AdelimpIco.ico" type="image/x-icon">
+    
 </head>
 
 <body>
