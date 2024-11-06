@@ -38,6 +38,10 @@
     min-width: 98%;
     min-height: 98%;
 }
+.carta02>img{
+    width: 100%;
+    height: 100%;
+}
 .h2Carta{
     position: absolute;
     bottom: 8%;

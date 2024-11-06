@@ -101,7 +101,7 @@
                 <button class="scroll-btn scroll-right-btn" id="scrollRightBtn">&gt;</button>
             </div>
             <div class="bottomArea03 centro">
-                <h2>Solicite um Orçamento, atendimento 24 horas:</h2>
+                <h2>Solicite um Orçamento, de 9h as 18h:</h2>
                 <a href="https://wa.me/+5521981377922" class="btnOrcamento centro somb " target="_blank">Fale Conosco</a>
             </div>
         </div>
@@ -141,57 +141,57 @@
 
         </div>
         <div id="quemSomos" class="bloco bloco02 centro">
-        <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
-        <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
-            <div class="quemSomosArea centro">
-                <div class="cimaLEsquerda">
-                    <div class="cimaDentroEsquerda">
-                        <div class="cimaDentroEsquerdaAreaCima">                            
-                            <h1>Informações Institucionais</h1>
+            <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
+            <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
+                <div class="quemSomosArea centro">
+                    <div class="cimaLEsquerda">
+                        <div class="cimaDentroEsquerda">
+                            <div class="cimaDentroEsquerdaAreaCima">                            
+                                <h1>Informações Institucionais</h1>
+                            </div>
+                            <div class="cimaDentroEsquerdaAreaBaixo">
+                                <ul>                                
+                                    <li>Telefone: (21) 2548-9379</li>
+                                    <li>Telefone: (21) 2548-9712</li>
+                                    <li>Celular: (21) 99356-5114</li>
+                                    <li>Endereço: Rua Barata Ribeiro 692, Lj 21 e 23 - Copacabana</li>
+                                    <li>CNPJ: 10.446.358/0001-04</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="cimaDentroEsquerdaAreaBaixo">
-                            <ul>                                
-                                <li>Telefone: (21) 2548-9379</li>
-                                <li>Telefone: (21) 2548-9712</li>
-                                <li>Celular: (21) 99356-5114</li>
-                                <li>Endereço: Rua Barata Ribeiro 692, Lj 21 e 23 - Copacabana</li>
-                                <li>CNPJ: 10.446.358/0001-04</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="baixoDentroEsquerda">
-                        <div class="baixoDentroEsquerdaAreaCima">
-                            <h2>Nos sigam nas Redes Sociais:</h2>
-                        </div>
-                        <div class="baixoDentroEsquerdaAreaBaixo centro">
-                            <a href=""><img src="https://live.staticflickr.com/65535/54106809511_5705f277c5_o.png" alt=""></a>
-                            <a href="https://wa.me/+5521993565114"><img src="https://live.staticflickr.com/65535/54107066048_0ab6bccc2b_o.png" alt=""></a>
-                            <a href=""><img src="https://live.staticflickr.com/65535/54107260430_573eceb841_o.png" alt=""></a>
-                            <a href=""><img src="https://live.staticflickr.com/65535/54107260420_f3b1eb1c06_o.png" alt=""></a>
+                        <div class="baixoDentroEsquerda">
+                            <div class="baixoDentroEsquerdaAreaCima">
+                                <h2>Nos sigam nas Redes Sociais:</h2>
+                            </div>
+                            <div class="baixoDentroEsquerdaAreaBaixo centro">
+                                <a href=""><img src="https://live.staticflickr.com/65535/54106809511_5705f277c5_o.png" alt=""></a>
+                                <a href="https://wa.me/+5521993565114"><img src="https://live.staticflickr.com/65535/54107066048_0ab6bccc2b_o.png" alt=""></a>
+                                <a href=""><img src="https://live.staticflickr.com/65535/54107260430_573eceb841_o.png" alt=""></a>
+                                <a href=""><img src="https://live.staticflickr.com/65535/54107260420_f3b1eb1c06_o.png" alt=""></a>
+                            </div>
+                            
                         </div>
                         
                     </div>
-                    
-                </div>
-                <div class="cimaLDireita centro">
-                    <div class="cimaDentroDireitaAreaCima">                            
-                        <h1>Conheça Nossa Loja</h1>
+                    <div class="cimaLDireita centro">
+                        <div class="cimaDentroDireitaAreaCima">                            
+                            <h1>Conheça Nossa Loja</h1>
+                        </div>
+                        <div class="slide">
+                            <div class="areaSlide" id="areaSlideQuemSomos"></div>
+                            <div class="areaEsfumadaEsquerda"></div>
+                            <div class="areaEsfumadaDireita"></div>
+                            <button class="scroll-btn scroll-left-btn" id="scrollLeftBtnQS">&lt;</button>
+                            <button class="scroll-btn scroll-right-btn" id="scrollRightBtnQS">&gt;</button>
+                        </div>
+                        <div class="cimaDentroDireitaAreaBaixo">
+                                <p>É um prazer muito grande participar da proteção da sua casa
+                                    e sempre fazemos o melhor para atender as necessidades e 
+                                    especificações dos nosso clientes.
+                                </p>
+                        </div>
+                        
                     </div>
-                    <div class="slide">
-                        <div class="areaSlide" id="areaSlideQuemSomos"></div>
-                        <div class="areaEsfumadaEsquerda"></div>
-                        <div class="areaEsfumadaDireita"></div>
-                        <button class="scroll-btn scroll-left-btn" id="scrollLeftBtnQS">&lt;</button>
-                        <button class="scroll-btn scroll-right-btn" id="scrollRightBtnQS">&gt;</button>
-                    </div>
-                    <div class="cimaDentroDireitaAreaBaixo">
-                            <p>É um prazer muito grande participar da proteção da sua casa
-                                e sempre fazemos o melhor para atender as necessidades e 
-                                especificações dos nosso clientes.
-                            </p>
-                    </div>
-                    
-                </div>
             </div>
         </div>
     </div>
