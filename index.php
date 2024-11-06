@@ -57,8 +57,8 @@
                 <div class="navArea">
                 <div class="btnNav01 centro somb" onclick="home()"><b onclick="home()">Pagina Principal</b></div>
                 <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
-                <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>
-                <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div>                   
+                <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div> 
+                <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>                  
                 
                 <div class="btnNav01 centro somb what01 fontWei"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
                 </div>                
@@ -133,8 +133,8 @@
                 <section class="personagem-selecionado top02area">
                     <img class="personagem-grande" src="https://live.staticflickr.com/65535/54073654536_d8ea0a9b79_m.jpg" alt="">
                     <div class="informacoes-personagem">
-                        <h2 class="nome-personagem" id="nome-personagem">ciclop</h2>
-                        <p class="descricao-personagem" id="descricao-personagem">ciclop</p>
+                        <h2 class="nome-personagem" id="nome-personagem">nome</h2>
+                        <p class="descricao-personagem" id="descricao-personagem">descrição</p>
                     </div>
                 </section>
             </main>
