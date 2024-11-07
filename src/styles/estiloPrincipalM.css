@@ -1,3 +1,6 @@
+body{
+    height: 100vh;
+}
 .areaConteudo{
     scrollbar-width: none; /* Para Firefox */
     -ms-overflow-style: none; /* Para Internet Explorer e Edge */
