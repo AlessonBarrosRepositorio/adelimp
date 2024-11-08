@@ -11,8 +11,8 @@
 }
 .areaSlide {
     position: relative; /* Adicionado para posicionar os botões de rolagem */
-    width: 100%;
-    height:100%;
+    min-width: 100%;
+    min-height:100%;
     overflow-x: auto; /* Permitir rolagem horizontal */
     white-space: nowrap; /* Impedir que as cartas quebrem para uma nova linha */
     scrollbar-width: none; /* Para Firefox */
