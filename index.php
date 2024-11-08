@@ -79,9 +79,10 @@
                 <div class="btnNav01 centro somb"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
                 </div>                
             </nav>
-            <div class="textoArea01 absolute"></div>
-            <div class="AreaEsquerdaCoteundo01"></div>
-            <div class="AreaDireitaCoteundo01"></div>
+            <div class="textoArea01">
+                <h1>Telas e Redes Adelimp</h1>
+                <p>Há mais de 20 anos, trazemos qualidade e segurança para sua casa e família. Somos especializados em telas e redes, grades de proteção, grades para quadras, telas para piscinas, entre outros.</p>
+            </div>
 
 
             <img class="noneMob"  src="https://live.staticflickr.com/65535/54040292820_ef08e4b903_b.jpg" alt="imagem fundo adelimp desktop" srcset="">

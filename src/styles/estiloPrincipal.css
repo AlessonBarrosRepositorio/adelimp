@@ -8,6 +8,33 @@
     width: 0; /* Define a largura da barra de rolagem como 0 para escondê-la */
     background: transparent; /* Torna a barra de rolagem transparente */
   }
+.textoArea01{
+    width: 28%;
+    height: 30%;
+    background-color: #fffd;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px black;
+    position: absolute;
+    left: 3%;
+    bottom: 10%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: .4rem;
+    text-align: center;
+    border: .4rem solid #04045B;
+}
+.textoArea01>h1{
+    font-size: .8rem;
+    font-weight: 800;
+    color:#04045B;
+    margin-bottom:.2rem;
+}
+.textoArea01>p{
+    font-size: .6rem;
+    color:#04045B;
+        
+}
 .areaConteudo{
     width: 100%;
     height: 100%;
@@ -158,6 +185,10 @@ font-weight: bolder;
     left: 2%;
     top:2%;
 }
+.logo01>img{
+    
+    border:3px solid #fffa;
+}
 html {
     font-size: 2vw; /* 1rem agora será igual a 2% da largura da viewport */
 }
@@ -172,6 +203,7 @@ html {
     margin: auto;
     border-radius: 0.625rem; /* 10px */
     background-color: #04045B;
+    border:3px solid #fffa;
 }
 
 .navArea {
