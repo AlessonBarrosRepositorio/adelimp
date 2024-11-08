@@ -34,6 +34,10 @@
     position: relative;
     display: flex;
 }
+.carta>img{
+    width: 100%;
+    height: 100%;
+}
 .carta02{
     min-width: 98%;
     min-height: 98%;
