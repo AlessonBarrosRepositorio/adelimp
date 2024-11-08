@@ -178,7 +178,7 @@
                             <h1>Conheça Nossa Loja</h1>
                         </div>
                         <div class="slide">
-                            <div class="areaSlide" id="areaSlideQuemSomos"></div>
+                            <div class="areaSlide areaSlideQS" id="areaSlideQuemSomos"></div>
                             <div class="areaEsfumadaEsquerda"></div>
                             <div class="areaEsfumadaDireita"></div>
                             <button class="scroll-btn scroll-left-btn" id="scrollLeftBtnQS">&lt;</button>
