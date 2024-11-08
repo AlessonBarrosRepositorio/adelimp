@@ -117,16 +117,16 @@
                         <li class="personagem selecionado" id="imagem01" data-name="Tela de Janela" data-description="tela de proteção janela com abertura dupla">
                             <img src="https://live.staticflickr.com/65535/54073649461_8deb6f0661_t.jpg" alt="tela de proteção janela com abertura dupla">
                         </li>
-                        <li class="personagem" id="imagem02" data-name="rede" data-description="Tela de Janela com abertura">
+                        <li class="personagem" id="imagem02" data-name="Tela de Janela com abertura" data-description="Tela de Janela com abertura">
                             <img src="https://live.staticflickr.com/65535/54072766537_ff17ec2e7e_t.jpg" alt="Tela de Janela com abertura">
                         </li>
-                        <li class="personagem" id="imagem03" data-name="rede" data-description="tela grande para prédios">
+                        <li class="personagem" id="imagem03" data-name="tela grande para prédios" data-description="tela grande para prédios">
                             <img src="https://live.staticflickr.com/65535/54074104115_ce88bde34c_t.jpg" alt="tela grande para prédios">
                         </li> 
-                        <li class="personagem" id="imagem04" data-name="rede" data-description="tela para por ta de áreas extenas">
+                        <li class="personagem" id="imagem04" data-name="tela para por ta de áreas extenas" data-description="tela para por ta de áreas extenas">
                             <img src="https://live.staticflickr.com/65535/54072766552_c6b19d9e01_t.jpg" alt="tela para por ta de áreas extenas">
                         </li> 
-                        <li class="personagem" id="imagem05" data-name="rede" data-description="telas de proteção em escadas">
+                        <li class="personagem" id="imagem05" data-name="telas de proteção em escadas" data-description="telas de proteção em escadas">
                             <img src="https://live.staticflickr.com/65535/54072766567_f6ff325d63_t.jpg" alt="telas de proteção em escadas">
                         </li>                         
                     </ul>
