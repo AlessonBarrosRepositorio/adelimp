@@ -60,7 +60,7 @@
                 <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div> 
                 <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>                  
                 
-                <div class="btnNav01 centro somb what01 fontWei"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
+                <div class="btnNav01 centro somb what01 fontWei"><a title="esse é o link para lhe encaminhar para o whatsapp" href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
                 </div>                
             </nav>
         </div>
@@ -68,7 +68,7 @@
     <div class="areaConteudo">
         <div id="home" class="areaConteudo01 bloco bloco02">
             <div class="logo01 absolute 02">
-                <img src="https://live.staticflickr.com/65535/54039125842_fa1e78e187_m.jpg" alt="" srcset="">
+                <img src="https://live.staticflickr.com/65535/54039125842_fa1e78e187_m.jpg" alt="imagem logo Adelimp" srcset="">
                 
             </div>
             <nav class="nave absolute somb centro  noneMob">
@@ -84,12 +84,12 @@
             <div class="AreaDireitaCoteundo01"></div>
 
 
-            <img class="noneMob"  src="https://live.staticflickr.com/65535/54040292820_ef08e4b903_b.jpg" alt="" srcset="">
-            <img class="noneDesk" src="https://live.staticflickr.com/65535/54083156276_bdf8b722f1_o.png" alt="" srcset="">
+            <img class="noneMob"  src="https://live.staticflickr.com/65535/54040292820_ef08e4b903_b.jpg" alt="imagem fundo adelimp desktop" srcset="">
+            <img class="noneDesk" src="https://live.staticflickr.com/65535/54083156276_bdf8b722f1_o.png" alt="imagem fundo adelimp mobile" srcset="">
         </div>        
         <div id="servico" class="areaConteudo03 centro bloco bloco02">
-            <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
-            <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
+            <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt="imagem do botão de voltar para página inicial"></div>            
+            <a title="esse é o link para lhe encaminhar para o whatsapp" href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt="imagem do botão do whatsapp"></a>
             <div class="topArea03 centro"><h1>Nossos Serviços:</h1></div>
             
             <div class="slide 02">
@@ -102,47 +102,47 @@
             </div>
             <div class="bottomArea03 centro">
                 <h2>Solicite um Orçamento, de 9h as 18h:</h2>
-                <a href="https://wa.me/+5521981377922" class="btnOrcamento centro somb " target="_blank">Fale Conosco</a>
+                <a title="esse é o link para lhe encaminhar para o whatsapp" href="https://wa.me/+5521981377922" class="btnOrcamento centro somb " target="_blank">Fale Conosco</a>
             </div>
         </div>
         <div id="trabalhos" class="areaConteudo02 bloco bloco02 centro">
-            <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
-            <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
+            <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt="imagem do botão de voltar para página inicial"></div>            
+            <a title="esse é o link para lhe encaminhar para o whatsapp" href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt="imagem do botão do whatsapp"></a>
 
             <main class="selecao-de-personagens">
                 <section class="personagens bottom02area somb">
                     <h1 class="titulo">Galeria de Trabalhos</h1>
                     <ul class="lista-de-personagens">
-                        <li class="personagem selecionado" id="imagem01" data-name="Tela de Janela" data-description="Tela de Janela">
-                            <img src="https://live.staticflickr.com/65535/54073649461_8deb6f0661_t.jpg" alt="Explicação">
+                        <li class="personagem selecionado" id="imagem01" data-name="Tela de Janela" data-description="tela de proteção janela com abertura dupla">
+                            <img src="https://live.staticflickr.com/65535/54073649461_8deb6f0661_t.jpg" alt="tela de proteção janela com abertura dupla">
                         </li>
-                        <li class="personagem" id="imagem02" data-name="rede" data-description="escreva aqui a descrição">
-                            <img src="https://live.staticflickr.com/65535/54072766537_ff17ec2e7e_t.jpg" alt="Tela de Janela">
+                        <li class="personagem" id="imagem02" data-name="rede" data-description="Tela de Janela com abertura">
+                            <img src="https://live.staticflickr.com/65535/54072766537_ff17ec2e7e_t.jpg" alt="Tela de Janela com abertura">
                         </li>
-                        <li class="personagem" id="imagem03" data-name="rede" data-description="escreva aqui a descrição">
-                            <img src="https://live.staticflickr.com/65535/54074104115_ce88bde34c_t.jpg" alt="">
+                        <li class="personagem" id="imagem03" data-name="rede" data-description="tela grande para prédios">
+                            <img src="https://live.staticflickr.com/65535/54074104115_ce88bde34c_t.jpg" alt="tela grande para prédios">
                         </li> 
-                        <li class="personagem" id="imagem04" data-name="rede" data-description="escreva aqui a descrição">
-                            <img src="https://live.staticflickr.com/65535/54072766552_c6b19d9e01_t.jpg" alt="">
+                        <li class="personagem" id="imagem04" data-name="rede" data-description="tela para por ta de áreas extenas">
+                            <img src="https://live.staticflickr.com/65535/54072766552_c6b19d9e01_t.jpg" alt="tela para por ta de áreas extenas">
                         </li> 
-                        <li class="personagem" id="imagem05" data-name="rede" data-description="escreva aqui a descrição">
-                            <img src="https://live.staticflickr.com/65535/54072766567_f6ff325d63_t.jpg" alt="">
+                        <li class="personagem" id="imagem05" data-name="rede" data-description="telas de proteção em escadas">
+                            <img src="https://live.staticflickr.com/65535/54072766567_f6ff325d63_t.jpg" alt="telas de proteção em escadas">
                         </li>                         
                     </ul>
                 </section>
                 <section class="personagem-selecionado top02area">
-                    <img class="personagem-grande" src="https://live.staticflickr.com/65535/54073654536_d8ea0a9b79_m.jpg" alt="">
+                    <img class="personagem-grande" src="https://live.staticflickr.com/65535/54073654536_d8ea0a9b79_m.jpg" alt="tela de proteção janela com abertura dupla"">
                     <div class="informacoes-personagem">
-                        <h2 class="nome-personagem" id="nome-personagem">nome</h2>
-                        <p class="descricao-personagem" id="descricao-personagem">descrição</p>
+                        <h2 class="nome-personagem" id="nome-personagem">tela de proteção janela com abertura dupla</h2>
+                        <p class="descricao-personagem" id="descricao-personagem">tela de proteção janela com abertura dupla"</p>
                     </div>
                 </section>
             </main>
 
         </div>
         <div id="quemSomos" class="bloco bloco02 centro">
-            <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt=""></div>            
-            <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt=""></a>
+            <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt="imagem do botão de voltar para página inicial"></div>            
+            <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt="imagem do botão do whatsapp"></a>
                 <div class="quemSomosArea centro">
                     <div class="cimaLEsquerda">
                         <div class="cimaDentroEsquerda">
@@ -164,10 +164,10 @@
                                 <h2>Nos sigam nas Redes Sociais:</h2>
                             </div>
                             <div class="baixoDentroEsquerdaAreaBaixo centro">
-                                <a href="https://www.instagram.com/adelimprj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="https://live.staticflickr.com/65535/54106809511_5705f277c5_o.png" alt=""></a>
-                                <a href="https://wa.me/+5521993565114"><img src="https://live.staticflickr.com/65535/54107066048_0ab6bccc2b_o.png" alt=""></a>
-                                <a href=""><img src="https://live.staticflickr.com/65535/54107260430_573eceb841_o.png" alt=""></a>
-                                <a href=""><img src="https://live.staticflickr.com/65535/54107260420_f3b1eb1c06_o.png" alt=""></a>
+                                <a title="esse link lhe encaminhará para o intagram da loja de telas e redes adelimp" href="https://www.instagram.com/adelimprj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="https://live.staticflickr.com/65535/54106809511_5705f277c5_o.png" alt="imagem logo instagram"></a>
+                                <a title="esse é o link para lhe encaminhar para o whatsapp" href="https://wa.me/+5521993565114"><img src="https://live.staticflickr.com/65535/54107066048_0ab6bccc2b_o.png" alt="imagem logo whatsapp"></a>
+                                <a title="infelizmente ainda não temos youtube" href=""><img src="https://live.staticflickr.com/65535/54107260430_573eceb841_o.png" alt="imagem logo youtube"></a>
+                                <a title="infelizmente ainda não temos tiktok" href=""><img src="https://live.staticflickr.com/65535/54107260420_f3b1eb1c06_o.png" alt="imagem logo tiktok"></a>
                             </div>
                             
                         </div>

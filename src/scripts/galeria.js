@@ -49,6 +49,9 @@ function AlterarImagemPersonagemSelecionado(personagem) {
 
     // Usar o vetor de URLs em vez de caminho local
     personagemGrande.src = imagens[idPersonagem] || 'default-image-url.png';  // Coloque um link padrão caso a imagem não seja encontrada
+
+        // Definir o atributo alt com a descrição do personagem
+        personagemGrande.alt = personagem.getAttribute('data-description');
 }
 
 function RemoverSelecaoDoPersonagem() {
