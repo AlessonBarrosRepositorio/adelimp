@@ -164,7 +164,7 @@
                                 <h2>Nos sigam nas Redes Sociais:</h2>
                             </div>
                             <div class="baixoDentroEsquerdaAreaBaixo centro">
-                                <a href=""><img src="https://live.staticflickr.com/65535/54106809511_5705f277c5_o.png" alt=""></a>
+                                <a href="https://www.instagram.com/adelimprj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="https://live.staticflickr.com/65535/54106809511_5705f277c5_o.png" alt=""></a>
                                 <a href="https://wa.me/+5521993565114"><img src="https://live.staticflickr.com/65535/54107066048_0ab6bccc2b_o.png" alt=""></a>
                                 <a href=""><img src="https://live.staticflickr.com/65535/54107260430_573eceb841_o.png" alt=""></a>
                                 <a href=""><img src="https://live.staticflickr.com/65535/54107260420_f3b1eb1c06_o.png" alt=""></a>
