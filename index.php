@@ -10,6 +10,10 @@
 
 
 ">
+     <meta name="copyright" content="Redes de proteção RJ – Telas de proteção RJ">
+     <meta property="og:description" content="Instalamos a melhor tela de proteção para Copacabana, zona sul do Rio. Colocamos de forma segura. ORÇAMENTO GRÁTIS!">
+     <meta property="og:title" content="Redes de Proteção Copacabana RJ | Instalação Rápida">          
+     <meta property="og:title" content="Redes de Proteção Copacabana RJ | Instalação Rápida">
     <title>Telas e Redes de proteção Copacabana – Adelimp – (21) 2548-9379 – Redes de Proteção em Copacabana – Redes de Segurança em Copacabana – Redes e Telas de Proteção em Copacabana para janelas, sacadas, escadas</title>
     <script src="./src/scripts/telaAjustavel.js" defer></script>
     <link rel="stylesheet" href="./src/styles/reset.css">
