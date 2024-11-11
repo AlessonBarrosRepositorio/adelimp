@@ -12,8 +12,11 @@
 ">
      <meta name="copyright" content="Redes de proteção RJ – Telas de proteção RJ">
      <meta property="og:description" content="Instalamos a melhor tela de proteção para Copacabana, zona sul do Rio. Colocamos de forma segura. ORÇAMENTO GRÁTIS!">
-     <meta property="og:title" content="Redes de Proteção Copacabana RJ | Instalação Rápida">          
      <meta property="og:title" content="Redes de Proteção Copacabana RJ | Instalação Rápida">
+     <meta name="twitter:title" content="Instalação de Tela Mosquiteira no RJ | Telas &amp; Redes">
+     <meta name="twitter:description" content="Os mosquitos não precisam fazer parte da sua vida. Tela mosquiteira no RJ é com a Telas e Redes, a empresa que cuida da sua família. tela mosquiteira rj">          
+     <meta property="og:title" content="Redes de Proteção Copacabana RJ | Instalação Rápida">
+     <link rel="alternate" href="https://www.telaseredesadelimp.com/" hreflang="pt-BR">
     <title>Telas e Redes de proteção Copacabana – Adelimp – (21) 2548-9379 – Redes de Proteção em Copacabana – Redes de Segurança em Copacabana – Redes e Telas de Proteção em Copacabana para janelas, sacadas, escadas</title>
     <script src="./src/scripts/telaAjustavel.js" defer></script>
     <link rel="stylesheet" href="./src/styles/reset.css">
