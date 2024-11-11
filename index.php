@@ -10,7 +10,7 @@
 
 
 ">
-    <title>Adelimp Telas e Redes</title>
+    <title>Telas e Redes de proteção Copacabana – Adelimp – (21) 2548-9379 – Redes de Proteção em Copacabana – Redes de Segurança em Copacabana – Redes e Telas de Proteção em Copacabana para janelas, sacadas, escadas</title>
     <script src="./src/scripts/telaAjustavel.js" defer></script>
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link id="estiloPrincipal" rel="stylesheet" href="./src/styles/estiloPrincipal.css">
