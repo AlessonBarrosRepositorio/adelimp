@@ -1,4 +1,3 @@
-console.log("chegou aqui cardsCadastradoQuemSomos.js");
 const areaSlide02 = document.getElementById('areaSlideQuemSomos');
 const scrollLeftBtn02 = document.getElementById('scrollLeftBtnQS');
 const scrollRightBtn02 = document.getElementById('scrollRightBtnQS');

@@ -28,7 +28,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-    <script src="./src/scripts/cardScript/cacheStorage.js" defer></script>
+
     
     <link rel="stylesheet" href="./src/styles/animation/animation.css">
 
