@@ -64,7 +64,7 @@ function cards() {
                         </div>
                     </div>
                     <div class="carta instagram-embed">
-                       <a  target="_blank" title="esse é o link para a rede social instagram da loja de telas e redes de proteção adelimp href="https://www.instagram.com/adelimprj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="imgCarta"><img src="https://live.staticflickr.com/65535/54049024762_23b728ba0b_m.jpg" alt="imagem do perfil da telas e redes de proteção adelimp" class="imgCarta"></a>
+                       <a  target="_blank" title="esse é o link para a rede social instagram da loja de telas e redes de proteção adelimp" href="https://www.instagram.com/adelimprj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="imgCarta"><img src="https://live.staticflickr.com/65535/54049024762_23b728ba0b_m.jpg" alt="imagem do perfil da telas e redes de proteção adelimp" class="imgCarta"></a>
                         <div class="h2Carta">
                             <h2>
                                 <a  target="_blank" title="esse é o link para a rede social instagram da loja de telas e redes de proteção adelimp"  href="https://www.instagram.com/adelimprj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Nos siga no instagram</a>
