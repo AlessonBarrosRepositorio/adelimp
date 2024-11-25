@@ -1,20 +1,16 @@
-function quemSou() {
-    document.getElementById('quemSomos').scrollIntoView({
-        behavior: 'smooth'
-    });
+function scrollToSection(sectionId) {
+    const element = document.getElementById(sectionId);
+    if ('scrollBehavior' in document.documentElement.style) {
+        // Suporte a smooth scroll
+        element.scrollIntoView({ behavior: 'smooth' });
+    } else {
+        // Fallback: scroll instantâneo
+        element.scrollIntoView();
+    }
 }
-function servico() {
-    document.getElementById('servico').scrollIntoView({
-        behavior: 'smooth'
-    });
-}
-function trabalhos() {
-    document.getElementById('trabalhos').scrollIntoView({
-        behavior: 'smooth'
-    });
-}
-function home() {
-    document.getElementById('home').scrollIntoView({
-        behavior: 'smooth'
-    });
-}
+
+// Atualize suas funções:
+function quemSou() { scrollToSection('quemSomos'); }
+function servico() { scrollToSection('servico'); }
+function trabalhos() { scrollToSection('trabalhos'); }
+function home() { scrollToSection('home'); }

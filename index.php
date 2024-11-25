@@ -51,7 +51,10 @@
     <script src="./src/scripts/btnOpcoes.js" defer></script>
     
     <link rel="icon" href="src/midia/imgs/AdelimpIco.ico" type="image/x-icon">
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll-polyfill/0.4.4/smoothscroll.min.js"></script>
+    <script>
+        smoothscroll.polyfill();
+    </script>
 </head>
 
 <body>
@@ -64,10 +67,10 @@
         <div id="Opcoes" class="opcoes">
             <nav class="nave absolute  centro 02">
                 <div class="navArea">
-                <div class="btnNav01 centro somb" onclick="home()"><b onclick="home()">Pagina Principal</b></div>
-                <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
-                <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div> 
-                <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>                  
+                <div class="btnNav01 centro somb" onclick="home()"><b>Pagina Principal</b></div>
+                <div class="btnNav01 centro somb" onclick="servico()"><b>Serviços</b></div>
+                <div class="btnNav01 centro somb" onclick="trabalhos()"><b>Trabalhos</b></div> 
+                <div class="btnNav01 centro somb" onclick="quemSou()" ><b>Quem Sou</b></div>                  
                 
                 <div class="btnNav01 centro somb what01 fontWei"><a title="esse é o link para lhe encaminhar para o whatsapp" href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
                 </div>                
@@ -83,7 +86,7 @@
             <nav class="nave absolute somb centro  noneMob">
                 <div class="navArea centro">
                 <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
-                <div class="btnNav01 centro somb" onclick="objetivo()"><b onclick="trabalhos()">Trabalhos</b></div>                   
+                <div class="btnNav01 centro somb" onclick="trabalhos()"><b onclick="trabalhos()">Trabalhos</b></div>                   
                 <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>
                 <div class="btnNav01 centro somb"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
                 </div>                
