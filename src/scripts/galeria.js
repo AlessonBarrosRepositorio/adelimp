@@ -4,7 +4,11 @@ const imagens = {
     imagem02: "https://live.staticflickr.com/65535/54073908558_ce21184723_m.jpg",
     imagem03: "https://live.staticflickr.com/65535/54073980099_5c351549ec_m.jpg",
     imagem04:"https://live.staticflickr.com/65535/54072771492_3516312fb5_m.jpg",
-    imagem05:"https://live.staticflickr.com/65535/54072771507_902ff1f147_m.jpg"
+    imagem05:"https://live.staticflickr.com/65535/54072771507_902ff1f147_m.jpg",
+    imagem06:"https://live.staticflickr.com/65535/54162820667_9d5e15cfcd_o.png",
+    imagem07:"https://live.staticflickr.com/65535/54164007304_629f9cd703_o.png",
+    imagem08:"https://live.staticflickr.com/65535/54164007289_3695afc358_o.png",
+    imagem09:"https://live.staticflickr.com/65535/54164153175_1570379695_o.png"
 };
 
 // parte 1

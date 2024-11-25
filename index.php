@@ -115,7 +115,7 @@
             </div>
             <div class="bottomArea03 centro">
                 <h2>Solicite um Orçamento, de 9h as 18h:</h2>
-                <a title="esse é o link para lhe encaminhar para o whatsapp" href="https://wa.me/+5521981377922" class="btnOrcamento centro somb " target="_blank">Fale Conosco</a>
+                <a title="esse é o link para lhe encaminhar para o whatsapp" href="https://wa.me/+5521993565114" class="btnOrcamento centro somb " target="_blank">Fale Conosco</a>
             </div>
         </div>
         <div id="trabalhos" class="areaConteudo02 bloco bloco02 centro">
@@ -140,7 +140,19 @@
                         </li> 
                         <li class="personagem" id="imagem05" data-name="telas de proteção em escadas" data-description="telas de proteção em escadas">
                             <img src="https://live.staticflickr.com/65535/54072766567_f6ff325d63_t.jpg" alt="telas de proteção em escadas">
-                        </li>                         
+                        </li>
+                        <li class="personagem" id="imagem06" data-name="telas de proteção em janelas grandes" data-description="telas de proteção em janelas grandes">
+                            <img src="https://live.staticflickr.com/65535/54164163880_f6be7993ce_o.png" alt="telas de proteção em janelas grandes">
+                        </li>
+                        <li class="personagem" id="imagem07" data-name="telas de proteção em áreas externas e jardins" data-description="telas de proteção em áreas externas e jardins">
+                            <img src="https://live.staticflickr.com/65535/54164163895_5e7442804e_o.png" alt="telas de proteção em áreas externas e jardins">
+                        </li> 
+                        <li class="personagem" id="imagem08" data-name="telas de proteção em portas personalizadas" data-description="telas de proteção em portas personalizadas">
+                            <img src="https://live.staticflickr.com/65535/54163983728_308a4377d8_o.png" alt="telas de proteção em portas personalizadas">
+                        </li> 
+                        <li class="personagem" id="imagem09" data-name="telas de proteção em janelas planejadas" data-description="telas de proteção em janelas planejadas">
+                            <img src="https://live.staticflickr.com/65535/54162831632_ec193ba792_o.png" alt="telas de proteção em janelas planejadas">
+                        </li>                            
                     </ul>
                 </section>
                 <section class="personagem-selecionado top02area">
