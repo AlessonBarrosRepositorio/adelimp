@@ -51,10 +51,7 @@
     <script src="./src/scripts/btnOpcoes.js" defer></script>
     
     <link rel="icon" href="src/midia/imgs/AdelimpIco.ico" type="image/x-icon">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll-polyfill/0.4.4/smoothscroll.min.js"></script>
-    <script>
-        smoothscroll.polyfill();
-    </script>
+
 </head>
 
 <body>
