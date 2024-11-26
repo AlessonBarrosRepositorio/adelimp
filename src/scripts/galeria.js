@@ -5,10 +5,10 @@ const imagens = {
     imagem03: "https://live.staticflickr.com/65535/54073980099_5c351549ec_m.jpg",
     imagem04: "https://live.staticflickr.com/65535/54072771492_3516312fb5_m.jpg",
     imagem05: "https://live.staticflickr.com/65535/54072771507_902ff1f147_m.jpg",
-    imagem06: "https://live.staticflickr.com/65535/54165671906_8fdc301f64_o.jpg",
-    imagem07: "https://live.staticflickr.com/65535/54165671891_858ae465fa_o.jpg",
-    imagem08: "https://live.staticflickr.com/65535/54165982924_4a0e72366b_o.jpg",
-    imagem09: "https://live.staticflickr.com/65535/54165671886_03aecdec13_o.jpg"
+    imagem06: "https://live.staticflickr.com/65535/54165671906_8fdc301f64_m.jpg",
+    imagem07: "https://live.staticflickr.com/65535/54165671891_858ae465fa_m.jpg",
+    imagem08: "https://live.staticflickr.com/65535/54165982924_4a0e72366b_m.jpg",
+    imagem09: "https://live.staticflickr.com/65535/54165671886_03aecdec13_m.jpg"
 };
 
 // parte 1
