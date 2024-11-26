@@ -3,12 +3,12 @@ const imagens = {
     imagem01: "https://live.staticflickr.com/65535/54073654536_d8ea0a9b79_m.jpg",
     imagem02: "https://live.staticflickr.com/65535/54073908558_ce21184723_m.jpg",
     imagem03: "https://live.staticflickr.com/65535/54073980099_5c351549ec_m.jpg",
-    imagem04:"https://live.staticflickr.com/65535/54072771492_3516312fb5_m.jpg",
-    imagem05:"https://live.staticflickr.com/65535/54072771507_902ff1f147_m.jpg",
-    imagem06:"https://live.staticflickr.com/65535/54162820667_9d5e15cfcd_o.png",
-    imagem07:"https://live.staticflickr.com/65535/54164007304_629f9cd703_o.png",
-    imagem08:"https://live.staticflickr.com/65535/54164007289_3695afc358_o.png",
-    imagem09:"https://live.staticflickr.com/65535/54164153175_1570379695_o.png"
+    imagem04: "https://live.staticflickr.com/65535/54072771492_3516312fb5_m.jpg",
+    imagem05: "https://live.staticflickr.com/65535/54072771507_902ff1f147_m.jpg",
+    imagem06: "https://live.staticflickr.com/65535/54165671906_8fdc301f64_o.jpg",
+    imagem07: "https://live.staticflickr.com/65535/54165671891_858ae465fa_o.jpg",
+    imagem08: "https://live.staticflickr.com/65535/54165982924_4a0e72366b_o.jpg",
+    imagem09: "https://live.staticflickr.com/65535/54165671886_03aecdec13_o.jpg"
 };
 
 // parte 1

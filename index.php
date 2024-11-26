@@ -153,10 +153,10 @@
                     </ul>
                 </section>
                 <section class="personagem-selecionado top02area">
-                    <img class="personagem-grande" src="https://live.staticflickr.com/65535/54073654536_d8ea0a9b79_m.jpg" alt="tela de proteção janela com abertura dupla"">
+                    <img class="personagem-grande" src="https://live.staticflickr.com/65535/54073654536_d8ea0a9b79_m.jpg" alt="tela de proteção janela com abertura dupla">
                     <div class="informacoes-personagem">
                         <h2 class="nome-personagem" id="nome-personagem">tela de proteção janela com abertura dupla</h2>
-                        <p class="descricao-personagem" id="descricao-personagem">tela de proteção janela com abertura dupla"</p>
+                        <p class="descricao-personagem" id="descricao-personagem">tela de proteção janela com abertura dupla</p>
                     </div>
                 </section>
             </main>
