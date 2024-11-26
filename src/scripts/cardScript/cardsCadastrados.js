@@ -20,7 +20,7 @@ function cards() {
                         </div>
                     </div>
                     <div class="carta">
-                        <img src="https://live.staticflickr.com/65535/54162820667_9d5e15cfcd_o.png" alt="imagem de um quarto com uma cama e mosqueteiro" class="imgCarta">
+                        <img src="https://live.staticflickr.com/65535/54165671906_8fdc301f64_o.jpg" alt="imagem de um quarto com uma cama e mosqueteiro" class="imgCarta">
                         <div class="h2Carta">
                             <h2>
                                 Telas Mosquiteiro para <br>Janelas e Portas
