@@ -162,6 +162,7 @@
             </main>
 
         </div>
+        <div id="perguntasRespostas" class="bloco bloco02 centro"></div>
         <div id="quemSomos" class="bloco bloco02 centro">
             <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt="imagem do botão de voltar para página inicial"></div>            
             <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt="imagem do botão do whatsapp"></a>
