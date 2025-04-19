@@ -162,7 +162,28 @@
             </main>
 
         </div>
-        <div id="perguntasRespostas" class="bloco bloco02 centro"></div>
+        <div id="perguntasRespostas" class="bloco bloco02 centro">
+                <div class="perfuntasRespostasArea centro">
+                    <div class="cimaLEsquerda">
+                        <div class="areaTituloResposta centro">
+                            <h1>Perguntas e Respostas</h1>
+                        </div>                        
+                        <h2>Tem diferença de preço em relação a cores das redes de proteção?</h2>
+                            <p>Não.</p>
+                        <h2>Tem diferença de preço sobre o vão da redes de proteção?</h2>
+                            <p>Sim, quanto menor, maior o preçço.</p>
+                        <h2>Tela mosquiteiro é velcro?</h2>
+                            <p>Não, a tela mosquiteiro é uma estrutura de aluminio.</p>
+                        <h2>Cobra orçamento de tela de orçamento?</h2>
+                            <p>Em toda zona sul sem compromisso.</p>
+                        <h2>Cor do aluminio interfere no valor da tela de proteção?</h2>
+                            <p>Não, a não ser que fuja das cores padrões.</p>
+                        <h2>Quantos quilos a tela de proteção aguenta?</h2>
+                            <p>300kg por metro quadrado, ateção não depende só dela e sim da estrutura de apoio</p>
+                    </div>
+                    <div class="cimaLDireita centro"></div>
+                </div>
+        </div>
         <div id="quemSomos" class="bloco bloco02 centro">
             <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt="imagem do botão de voltar para página inicial"></div>            
             <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt="imagem do botão do whatsapp"></a>

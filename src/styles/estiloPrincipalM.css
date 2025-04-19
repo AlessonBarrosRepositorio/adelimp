@@ -516,3 +516,27 @@ font-weight: bolder;
     width: 100%;
     height: 100%;
 }
+.perfuntasRespostasArea{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.areaTituloResposta{
+    width: 100%;
+    
+}
+.perfuntasRespostasArea>.cimaLEsquerda{
+    gap: 0.65rem;
+}
+.perfuntasRespostasArea>.cimaLEsquerda>.areaTituloResposta>h1{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.perfuntasRespostasArea>.cimaLEsquerda>h2{
+    font-weight: bold;
+    font-size: .7rem;
+}
+.perfuntasRespostasArea>.cimaLEsquerda>p{
+    font-size: .6rem;
+    margin-left: 1rem;
+}
