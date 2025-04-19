@@ -467,3 +467,15 @@ html {
     font-size: .6rem;
     margin-left: 1rem;
 }
+.descricaoTecnica{
+    gap: 2rem;
+}
+.descricaoTecnica>.descricaoTecnicaTitulo>h1{
+    font-size: 1.2rem;
+}
+.descricaoTecnica>.descricaoTecnicaTitulo>h2{
+    font-size: .9rem;
+}
+.descricaoTecnica>p{
+    font-size: .6rem;
+}

@@ -181,7 +181,26 @@
                         <h2>Quantos quilos a tela de proteção aguenta?</h2>
                             <p>300kg por metro quadrado, ateção não depende só dela e sim da estrutura de apoio</p>
                     </div>
-                    <div class="cimaLDireita centro"></div>
+                    <div class="cimaLDireita centro">
+                        <div class="descricaoTecnica">
+                            <div class="descricaoTecnicaTitulo">
+                                <h1>Descrição técnica para redes de proteção</h1>
+                                <h2>apartamentos janelas quadras campos piscinas sacadas escadas obras animais </h2>
+                            </div>
+                                <p>
+                                    NOSSAS REDES FORAM TESTADAS EM ENSAIO DE ACORDO COM NORMAS DO PLANO DE INSPEÇÃO NACIONAL 
+                                    A GARANTIA DO MESMO É DE SANOS CONTRA DEFEITOS DE FABRICAÇÃO E DURABILIDADE, EM CONDIÇÕES NORMAIS DE USO 
+                                    LEMBRANDO QUE NOSSA GARANTIA NÃO SE RESPONSABILIZA POR DANOS CAUSADOS POR TERCEIROS E APÓS A SUA INSTALAÇÃO, COMO CORTES, QUEIMADURAS, PRODUTOS QUÍMICOS OU QUALQUER OUTRA SUBSTANCIA QUE ALTERE A RESISTÊNCIA MOLECULAR DA REDE 
+                                    PRODUZIDA EM FORMA DE MALHAS ENTRE NOS CONFECCIONADA EM MONOFILAMENTO DE POLIETILENO TORCIDO DE ALTA DENSIDADE E RESISTÊNCIA 
+                                    CONFECCIONADA EM QUALQUER MEDIDA CONFORME A NECESSIDADE DO VÃO 
+                                    A SER PROTEGIDO 
+                                    REDES DISPONÍVEIS NAS MALHAS 2X3cm-5x5cm.-10x10cm 
+                                    RESISTEM ATÉ 300 KG/M2, OFERECENDO TOTAL SEGURANÇA SEM ALTERAR A FACHADA FECHAMENTOS EM JANELAS, VARANDAS, PISCINAS, QUADRAS, SACADAS, TERRAÇOS E COBERTURAS EXECUTA 
+                                    COM MATERIAIS DE FIXAÇÃO QUE MAIS SE APROPRIAM A ESTRUTURA LOCAL MÃO DE OBRA COM PROFISSIONAIS ESPECIALIZADOS E LARGA EXPERIENCIA EM ANOS DE
+                             </p>
+                        </div>
+                        
+                    </div>
                 </div>
         </div>
         <div id="quemSomos" class="bloco bloco02 centro">
