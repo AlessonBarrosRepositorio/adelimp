@@ -163,7 +163,7 @@
 
         </div>
         <div id="perguntasRespostas" class="bloco bloco02 centro">
-                <div class="perfuntasRespostasArea centro">
+                <div class="perguntasRespostasArea centro">
                     <div class="cimaLEsquerda">
                         <div class="areaTituloResposta centro">
                             <h1>Perguntas e Respostas</h1>
@@ -182,12 +182,12 @@
                             <p>300kg por metro quadrado, ateção não depende só dela e sim da estrutura de apoio</p>
                     </div>
                     <div class="cimaLDireita centro">
-                        <div class="descricaoTecnica">
+                        <div class="descricaoTecnica centro">
                             <div class="descricaoTecnicaTitulo">
                                 <h1>Descrição técnica para redes de proteção</h1>
                                 <h2>apartamentos janelas quadras campos piscinas sacadas escadas obras animais </h2>
                             </div>
-                                <p>
+                                <p class="centro">
                                     NOSSAS REDES FORAM TESTADAS EM ENSAIO DE ACORDO COM NORMAS DO PLANO DE INSPEÇÃO NACIONAL 
                                     A GARANTIA DO MESMO É DE SANOS CONTRA DEFEITOS DE FABRICAÇÃO E DURABILIDADE, EM CONDIÇÕES NORMAIS DE USO 
                                     LEMBRANDO QUE NOSSA GARANTIA NÃO SE RESPONSABILIZA POR DANOS CAUSADOS POR TERCEIROS E APÓS A SUA INSTALAÇÃO, COMO CORTES, QUEIMADURAS, PRODUTOS QUÍMICOS OU QUALQUER OUTRA SUBSTANCIA QUE ALTERE A RESISTÊNCIA MOLECULAR DA REDE 
