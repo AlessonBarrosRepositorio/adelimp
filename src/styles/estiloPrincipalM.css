@@ -300,9 +300,7 @@ font-weight: bolder;
     color: #fff;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
-    
-    
+    border-radius: 10px;    
 }
 
 .topArea03{
@@ -452,6 +450,13 @@ font-weight: bolder;
     display: flex;
     flex-direction: column;
 }
+.areaConteudo03{
+    height: 100%;
+}
+.ajust{
+    
+    height: 100%;
+}
 .cimaDentroEsquerda{
     width: 98%;
     height: 48%;
@@ -516,27 +521,50 @@ font-weight: bolder;
     width: 100%;
     height: 100%;
 }
-.perfuntasRespostasArea{
+.perguntasRespostasArea{
     width: 100%;
-    height: 100%;
+    height: 50%;
     flex-direction: column;
+    gap:2rem;
 }
 .areaTituloResposta{
     width: 100%;
     
 }
-.perfuntasRespostasArea>.cimaLEsquerda{
+.perguntasRespostasArea>.cimaLEsquerda{
     gap: 0.65rem;
 }
-.perfuntasRespostasArea>.cimaLEsquerda>.areaTituloResposta>h1{
+.perguntasRespostasArea>.cimaLEsquerda>.areaTituloResposta>h1{
     font-size: 1.2rem;
     font-weight: bolder;
 }
-.perfuntasRespostasArea>.cimaLEsquerda>h2{
+.perguntasRespostasArea>.cimaLEsquerda>h2{
     font-weight: bold;
     font-size: .7rem;
 }
-.perfuntasRespostasArea>.cimaLEsquerda>p{
+.perguntasRespostasArea>.cimaLEsquerda>p{
     font-size: .6rem;
     margin-left: 1rem;
+}
+.descricaoTecnica{
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.descricaoTecnica>.descricaoTecnicaTitulo{
+    
+    line-height: 1.2rem;
+}
+.descricaoTecnica>.descricaoTecnicaTitulo>h1{
+    font-size: 1rem;    
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.descricaoTecnica>.descricaoTecnicaTitulo>h2{
+    font-size: .8rem;    
+    font-weight: bolder;
+}
+.descricaoTecnica>p{
+    font-size: .6rem;
+    line-height: 1rem;
+    margin-bottom: 3.8rem;
 }

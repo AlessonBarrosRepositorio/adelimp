@@ -162,9 +162,9 @@
             </main>
 
         </div>
-        <div id="perguntasRespostas" class="bloco bloco02 centro">
+        <div id="perguntasRespostas" class="areaConteudo03 bloco bloco02 centro">
                 <div class="perguntasRespostasArea centro">
-                    <div class="cimaLEsquerda">
+                    <div class="cimaLEsquerda ajust">
                         <div class="areaTituloResposta centro">
                             <h1>Perguntas e Respostas</h1>
                         </div>                        
@@ -181,8 +181,8 @@
                         <h2>Quantos quilos a tela de proteção aguenta?</h2>
                             <p>300kg por metro quadrado, ateção não depende só dela e sim da estrutura de apoio</p>
                     </div>
-                    <div class="cimaLDireita centro">
-                        <div class="descricaoTecnica centro">
+                    <div class="cimaLDireita ajust  centro">
+                        <div class="descricaoTecnica  centro">
                             <div class="descricaoTecnicaTitulo">
                                 <h1>Descrição técnica para redes de proteção</h1>
                                 <h2>apartamentos janelas quadras campos piscinas sacadas escadas obras animais </h2>
@@ -196,7 +196,7 @@
                                     A SER PROTEGIDO 
                                     REDES DISPONÍVEIS NAS MALHAS 2X3cm-5x5cm.-10x10cm 
                                     RESISTEM ATÉ 300 KG/M2, OFERECENDO TOTAL SEGURANÇA SEM ALTERAR A FACHADA FECHAMENTOS EM JANELAS, VARANDAS, PISCINAS, QUADRAS, SACADAS, TERRAÇOS E COBERTURAS EXECUTA 
-                                    COM MATERIAIS DE FIXAÇÃO QUE MAIS SE APROPRIAM A ESTRUTURA LOCAL MÃO DE OBRA COM PROFISSIONAIS ESPECIALIZADOS E LARGA EXPERIENCIA EM ANOS DE
+                                    COM MATERIAIS DE FIXAÇÃO QUE MAIS SE APROPRIAM A ESTRUTURA LOCAL MÃO DE OBRA COM PROFISSIONAIS ESPECIALIZADOS E LARGA EXPERIENCIA EM ANOS DE TRABALHO COM AS MELHORES TELAS E REDES.
                              </p>
                         </div>
                         
