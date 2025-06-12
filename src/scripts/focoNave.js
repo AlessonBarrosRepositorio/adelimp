@@ -14,3 +14,4 @@ function quemSou() { scrollToSection('quemSomos'); }
 function servico() { scrollToSection('servico'); }
 function trabalhos() { scrollToSection('trabalhos'); }
 function home() { scrollToSection('home'); }
+function perguntasRespostas(){scrollToSection('perguntasRespostas')}

@@ -51,10 +51,12 @@
     <script src="./src/scripts/btnOpcoes.js" defer></script>
     
     <link rel="icon" href="src/midia/imgs/AdelimpIco.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/styles/fundobranco.css">
 
 </head>
 
 <body>
+    <div class="fundoBranco"></div>
     <button id="show-or-hide" class="butaodeOpcoes noneDesk">
         <div class="areaTIRA">
             <div class="tira"></div>
@@ -66,6 +68,7 @@
                 <div class="navArea">
                 <div class="btnNav01 centro somb" onclick="home()"><b>Pagina Principal</b></div>
                 <div class="btnNav01 centro somb" onclick="servico()"><b>Serviços</b></div>
+                <div class="btnNav01 centro somb" onclick="perguntasRespostas()" ><b id="perguntasRespostasBTN" onclick="perguntasRespostas()">Perguntas Frequentes</b></div>
                 <div class="btnNav01 centro somb" onclick="trabalhos()"><b>Trabalhos</b></div> 
                 <div class="btnNav01 centro somb" onclick="quemSou()" ><b>Quem Sou</b></div>                  
                 
@@ -84,6 +87,7 @@
                 <div class="navArea centro">
                 <div class="btnNav01 centro somb" onclick="servico()"><b onclick="servico()">Serviços</b></div>
                 <div class="btnNav01 centro somb" onclick="trabalhos()"><b onclick="trabalhos()">Trabalhos</b></div>                   
+                <div class="btnNav01 centro somb" onclick="perguntasRespostas()" ><b id="perguntasRespostasBTN" onclick="perguntasRespostas()">Perguntas Frequentes</b></div>
                 <div class="btnNav01 centro somb" onclick="quemSou()" ><b onclick="quemSou()">Quem Sou</b></div>
                 <div class="btnNav01 centro somb"><a href="https://wa.me/+5521993565114" target="_blank"class=" centro">Fale Conosco</a></div>
                 </div>                
@@ -163,6 +167,8 @@
 
         </div>
         <div id="perguntasRespostas" class="areaConteudo03 bloco bloco02 centro">
+            <div class="btnHome somb centro noneMob" onclick="home()"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924157/Sites/PericiaCynthia/icones/casaBranca.png" alt="imagem do botão de voltar para página inicial"></div>            
+            <a href="https://wa.me/+5521993565114" class="btnWhats somb noneMob" target="_blank"><img src="https://res.cloudinary.com/dotl7tsgw/image/upload/v1725924249/Sites/PericiaCynthia/icones/whatsBranco.png" alt="imagem do botão do whatsapp"></a>
                 <div class="perguntasRespostasArea centro">
                     <div class="cimaLEsquerda ajust">
                         <div class="areaTituloResposta centro">
@@ -258,6 +264,22 @@
             </div>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(destruirDiv, 1000);
+        });
+        function destruirDiv() {
+        const divParaRemover = document.querySelector('.fundoBranco');
+        
+        if (divParaRemover) {
+            divParaRemover.remove();
+            console.log('Div removida após 1 segundo!');
+        } else {
+            console.log('Nenhuma div com essa classe foi encontrada');
+        }
+    }
+    </script>
 </body>
 
 </html>
