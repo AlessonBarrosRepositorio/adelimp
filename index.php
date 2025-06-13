@@ -56,7 +56,7 @@
 </head>
 
 <body>
-    <div class="fundoBranco"></div>
+    <div id="fundoBranco" class="fundoBranco"></div>
     <button id="show-or-hide" class="butaodeOpcoes noneDesk">
         <div class="areaTIRA">
             <div class="tira"></div>
@@ -267,18 +267,20 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            setTimeout(destruirDiv, 1000);
+            setTimeout(destruirDiv, 1500);
         });
         function destruirDiv() {
-        const divParaRemover = document.querySelector('.fundoBranco');
-        
-        if (divParaRemover) {
-            divParaRemover.remove();
-            console.log('Div removida após 1 segundo!');
-        } else {
-            console.log('Nenhuma div com essa classe foi encontrada');
+            //const divParaRemover = document.querySelector('.fundoBranco');
+            const divParaRemover = document.getElementById('fundoBranco');
+            
+            if (divParaRemover) {
+                //divParaRemover.remove();
+                divParaRemover.classList.remove('fundoBranco');
+                console.log('Div removida após 1 segundo!');
+            } else {
+                console.log('Nenhuma div com essa classe foi encontrada');
+            }
         }
-    }
     </script>
 </body>
 
